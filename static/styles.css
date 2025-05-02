@@ -6,11 +6,53 @@ body {
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
-    height: 100vh; 
+    min-height: 100vh; 
     margin: 0;
     text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
   }
   
   h1 { font-size: 3rem; }
   p { font-size: 1.25rem; opacity: 0.7; }
   
+  .video-container {
+    margin: 2rem 0;
+    width: 100%;
+  }
+  
+  .video-container iframe {
+    max-width: 100%;
+    border: 1px solid #333;
+  }
+  
+  .link-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    width: 100%;
+  }
+  
+  .link-list li {
+    margin: 0.5rem 0;
+  }
+  
+  .link-list a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    transition: all 0.3s ease;
+  }
+  
+  .link-list a:hover {
+    background-color: #333;
+  }

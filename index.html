@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rain Harder</title>
-    <style>
-        body { 
-            font-family: Georgia, serif; 
-            background-color: #121212; 
-            color: #f5f5f5;
-            display: flex; 
-            flex-direction: column;
-            align-items: center; 
-            justify-content: center; 
-            height: 100vh; 
-            margin: 0;
-            text-align: center;
-        }
-        h1 { font-size: 3rem; }
-        p { font-size: 1.25rem; opacity: 0.7; }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>(Make it rain harder.)</p>
+    <div class="container">
+        <h1>Hello, World!</h1>
+        <p>(Make it rain harder.)</p>
+        
+        <div class="video-container">
+            <iframe 
+                src="https://player.vimeo.com/video/353526969" 
+                width="560" 
+                height="315" 
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        
+        <ul class="link-list">
+            <li><a href="#">Link One</a></li>
+            <li><a href="#">Link Two</a></li>
+            <li><a href="#">Link Three</a></li>
+            <li><a href="#">Link Four</a></li>
+        </ul>
+    </div>
 </body>
 </html>
