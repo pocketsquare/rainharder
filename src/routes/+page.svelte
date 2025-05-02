@@ -1,18 +1,12 @@
-<script>
-  import Header from '$lib/Header.svelte';
-</script>
-
 <svelte:head>
   <title>Rain Harder</title>
   <link rel="stylesheet" href="/styles.css">
 </svelte:head>
 
-<Header />
-
 <div class="container">
   <h1>MAKE IT RAIN HARDER</h1>
   <!-- <p>(Make it rain harder.)</p> -->
-  
+
   <div class="video-container">
     <iframe 
       title="Prince Super Bowl Performance"
@@ -24,7 +18,7 @@
       allowfullscreen>
     </iframe>
   </div>
-  
+
   <ul class="link-list">
     <li><a href="/pdfs/Sammy_Buckets_Misses.pdf">Sammy Buckets Misses</a></li>
     <li>
