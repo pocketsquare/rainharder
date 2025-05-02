@@ -24,11 +24,20 @@
     </div>
     
     <ul class="link-list">
-      <li><a href="/">Link One</a></li>
-      <li><a href="/">Link Two</a></li>
+      <li>
+        <a href="/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf" target="_blank">
+          The Art of Dressing Fiscally
+        </a>
+      </li>
+      <li>
+        <a href="/fools">
+          Fool's Gold
+        </a>
+      </li>
       <li><a href="/">Link Three</a></li>
       <li><a href="/">Link Four</a></li>
     </ul>
+    
   </div>
   
   <style>
