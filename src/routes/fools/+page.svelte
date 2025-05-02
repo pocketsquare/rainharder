@@ -15,12 +15,12 @@
 
   <p>
     &nbsp;<a href="/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf#page=90" target="_blank">
-      Last Night was the Night of Long Knives.
+      Last Night was another Night of Long Knives.
     </a>
   </p>
 
   <section class="episode-sample">
     <h2>Episode 1: Infinite Jest, Infinite Debts</h2>
-    <p>Denver money, Denver sandwiches, Stone Roses. Special guest: Elvis.</p>
+    <p>Denver Stones, Denver Bones, Stone Roses. Special guest: Elvis.</p>
   </section>
 </div>
