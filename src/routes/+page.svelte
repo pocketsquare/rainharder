@@ -37,7 +37,7 @@
         Fool's Gold
       </a>
     </li>
-    <li><a href="/">Link Four</a></li>
+    <li><a href="/pdfs/A_Major.pdf">A Major</a></li>
   </ul>
   
 </div>
