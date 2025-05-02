@@ -8,8 +8,8 @@
   </svelte:head>
   
   <div class="container">
-    <h1>Hello, World!</h1>
-    <p>(Make it rain harder.)</p>
+    <h1>MAKE IT RAIN HARDER</h1>
+    <!-- <p>(Make it rain harder.)</p> -->
     
     <div class="video-container">
       <iframe 
@@ -24,6 +24,7 @@
     </div>
     
     <ul class="link-list">
+      <li><a href="/pdfs/Sammy_Buckets_Misses.pdf">Sammy Buckets Misses</a></li>
       <li>
         <a href="/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf" target="_blank">
           The Art of Dressing Fiscally
@@ -34,7 +35,6 @@
           Fool's Gold
         </a>
       </li>
-      <li><a href="/">Link Three</a></li>
       <li><a href="/">Link Four</a></li>
     </ul>
     
