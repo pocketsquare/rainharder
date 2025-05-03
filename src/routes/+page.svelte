@@ -31,7 +31,13 @@
         Fool's Gold
       </a>
     </li>
+    <li>
+      <a href="/words">
+        Best Words Learning Method
+      </a>
+    </li>
     <li><a href="/pdfs/A_Major.pdf">A Major</a></li>
+    <li><a href="/pdfs/hopper.pdf">Sammy Buckets Commits a Technical Foul</a></li>
     <li><a href="/pdfs/hopper.pdf">Hopper.AI</a></li>
     <li><a href="/pdfs/hopper.pdf">Station to Station</a></li>
 
