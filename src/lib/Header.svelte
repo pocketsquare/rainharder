@@ -22,4 +22,3 @@
       Donate
     </div>
   </header>
-  

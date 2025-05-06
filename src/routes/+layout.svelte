@@ -1,13 +1,12 @@
-<script>
-    import Header from '$lib/Header.svelte';
-  </script>
+<div class="site-header">
+    <div class="logo-placeholder">LOGO</div>
+    <nav class="navigation">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/episodes">Episodes</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <div class="donation-placeholder">Donate</div>
+  </div>
   
-  <svelte:head>
-    <title>Rain Harder</title>
-    <link rel="stylesheet" href="/styles.css">
-  </svelte:head>
-  
-  <Header />
-  
-  <slot />
-  
+  <slot></slot>
