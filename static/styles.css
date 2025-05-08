@@ -5,7 +5,8 @@ body {
   display: flex; 
   flex-direction: column;
   align-items: center; 
-  justify-content: center; 
+  /* justify-content: center;  */
+  justify-content: flex-start; /* FIXED: vertically aligns content at top */
   min-height: 100vh; 
   margin: 0;
   text-align: center;

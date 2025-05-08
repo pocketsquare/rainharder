@@ -1,24 +1,12 @@
-<script>
-    export let links = [
-      { name: "Home", href: "/" },
-      { name: "About", href: "/about" },
-      { name: "Episodes", href: "/episodes" },
-      { name: "Contact", href: "/contact" }
-    ];
-  </script>
-  
-  <header class="site-header">
-    <div class="logo-placeholder">
-      LOGO
-    </div>
-  
+<!-- lib/Header.svelte -->
+<header class="site-header">
+    <div class="logo-placeholder">LOGO</div>
     <nav class="navigation">
-      {#each links as link}
-        <a href="{link.href}">{link.name}</a>
-      {/each}
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/episodes">Episodes</a>
+      <a href="/contact">Contact</a>
     </nav>
-  
-    <div class="donation-placeholder">
-      Donate
-    </div>
+    <div class="donation-placeholder">Donate</div>
   </header>
+  
