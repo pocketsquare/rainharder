@@ -1,12 +1,14 @@
+/* Light Theme with Subtle Pattern */
 body { 
   font-family: Georgia, serif; 
-  background-color: #121212; 
-  color: #f5f5f5;
+  background-color: #f9f9f9; /* Light background */
+  background-image: url('/subtle-pattern.png'); /* Add your pattern here */
+  background-repeat: repeat;
+  color: #333333; /* Dark text for light background */
   display: flex; 
   flex-direction: column;
   align-items: center; 
-  /* justify-content: center;  */
-  justify-content: flex-start; /* FIXED: vertically aligns content at top */
+  justify-content: flex-start;
   min-height: 100vh; 
   margin: 0;
   text-align: center;
@@ -18,10 +20,23 @@ body {
   align-items: center;
   width: 90%;
   max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
-h1 { font-size: 3rem; }
-p { font-size: 1.25rem; opacity: 0.7; }
+h1 { 
+  font-size: 3rem; 
+  color: #222222;
+}
+
+p { 
+  font-size: 1.25rem; 
+  opacity: 0.9; 
+  color: #444444;
+}
 
 .video-container {
   margin: 2rem 0;
@@ -30,7 +45,8 @@ p { font-size: 1.25rem; opacity: 0.7; }
 
 .video-container iframe {
   max-width: 100%;
-  border: 1px solid #333;
+  border: 1px solid #dddddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .link-list {
@@ -45,50 +61,20 @@ p { font-size: 1.25rem; opacity: 0.7; }
 }
 
 .link-list a {
-  color: #f5f5f5;
+  color: #333333;
   text-decoration: none;
   font-size: 1.2rem;
   display: block;
   padding: 0.5rem;
-  border: 1px solid #333;
+  border: 1px solid #dddddd;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .link-list a:hover {
-  background-color: #333;
-}
-
-/* Fools page fixed styles matching dark theme exactly */
-
-.fools-container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-family: sans-serif;
-  color: #f5f5f5; /* fixed for dark background */
-}
-
-.fools-container h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #ffffff; /* fixed for visibility */
-}
-
-.episode-sample {
-  margin-top: 2rem;
-  border-top: 2px solid #333; /* adjusted for visibility */
-  padding-top: 1.5rem;
-}
-
-.episode-sample h2 {
-  font-size: 1.5rem;
-  color: #cccccc; /* fixed for dark theme */
-}
-
-.episode-sample p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #cccccc; /* fixed for dark theme */
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Header component styles */
@@ -98,25 +84,26 @@ p { font-size: 1.25rem; opacity: 0.7; }
   align-items: center;
   width: 100%;
   padding: 1rem 2rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #dddddd;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo-placeholder,
 .donation-placeholder {
   font-size: 1.5rem;
-  color: #f5f5f5;
+  color: #333333;
 }
 
 .navigation a {
   margin: 0 1rem;
-  color: #f5f5f5;
+  color: #555555;
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 .navigation a:hover {
-  color: #cccccc;
+  color: #000000;
 }
 
 /* Words page styles */
@@ -129,20 +116,22 @@ p { font-size: 1.25rem; opacity: 0.7; }
 }
 
 .pdf-card {
-  background-color: #1e1e1e;
-  border: 1px solid #333;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
   border-radius: 4px;
   padding: 1.5rem;
   display: block;
-  color: #f5f5f5;
+  color: #333333;
   text-decoration: none;
   text-align: left;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .pdf-card:hover {
-  background-color: #333;
+  background-color: #f5f5f5;
   transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .pdf-icon {
@@ -152,16 +141,34 @@ p { font-size: 1.25rem; opacity: 0.7; }
 .pdf-icon svg {
   width: 2.5rem;
   height: 2.5rem;
-  stroke: #f5f5f5;
+  stroke: #555555;
 }
 
 .pdf-card h2 {
   font-size: 1.4rem;
   margin: 0 0 0.5rem 0;
+  color: #222222;
 }
 
 .pdf-card p {
   font-size: 1rem;
   margin: 0;
-  opacity: 0.7;
+  opacity: 0.8;
+  color: #555555;
 }
+
+/* Commented out dark theme for future reference
+/*
+body { 
+  font-family: Georgia, serif; 
+  background-color: #121212; 
+  color: #f5f5f5;
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  min-height: 100vh; 
+  margin: 0;
+  text-align: center;
+}
+*/
