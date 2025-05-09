@@ -100,6 +100,7 @@ p {
   padding: 1rem 2rem;
   border-bottom: 1px solid #dddddd;
   background-color: rgba(255, 255, 255, 0.9);
+  position: relative; /* Ensure dropdown positions correctly */
 }
 
 .logo-container img {
@@ -108,18 +109,73 @@ p {
   display: block;
 }
 
-.donation-placeholder {
-  font-size: 1.5rem;
-  color: #333333;
+.navigation {
+  display: flex;
+  gap: 1rem;
 }
 
 .navigation a {
-  margin: 0 1rem;
-  color: #555555;
   text-decoration: none;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
+  color: #333;
+  transition: color 0.2s ease;
 }
+
+.navigation a:hover {
+  color: #007bff;
+}
+
+/* Donate Button */
+.donate-container {
+  position: relative;
+}
+
+.donate-button {
+  font-family: 'Inter', sans-serif; /* Directly using the font */
+  font-weight: 600; /* Choose your weight: 500, 700 etc. as loaded above */
+  font-size: 1rem;
+  background-color: #6C447B;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-optical-sizing: auto; /* Recommended by Google */
+  font-style: normal; /* Also recommended by Google */
+}
+
+.donate-button:hover {
+  background-color: #573065;
+}
+
+/* Dropdown menu for donations */
+.donate-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  z-index: 1000;
+}
+
+.donate-dropdown a {
+  color: #333;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.donate-dropdown a:hover {
+  background-color: #f1f1f1;
+  color: #007bff;
+}
+
 
 .navigation a:hover {
   color: #000000;
