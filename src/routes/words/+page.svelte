@@ -25,17 +25,17 @@
   ];
 
   onMount(() => {
-    document.title = "Words | Rain Harder";
+    document.title = "Words Matter | Rain Harder";
   });
 </script>
 
 <svelte:head>
-  <title>Words | Rain Harder</title>
+  <title>Words Matter | Rain Harder</title>
   <link rel="stylesheet" href="/styles.css">
 </svelte:head>
 
 <div class="container">
-  <h1>Words</h1>
+  <h1>Words Matter</h1>
   <p>Lyrics and reflections Asbury Park and Olivewood Avenue</p>
 
   <div class="pdf-grid">
