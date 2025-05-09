@@ -21,8 +21,8 @@ body.home-page {
 
 /* A Major Page Styles */
 body.amajor-page {
-  /* background-image: url('/patterns/escape-flight.png'); */
-  background-image: url('/patterns/dark-wood.jpg');
+  background-image: url('/patterns/escape-flight.png');
+  /* background-image: url('/patterns/dark-wood.jpg'); */
 }
 
 /* Words Page Styles */
@@ -123,7 +123,7 @@ p {
 .navigation a {
   text-decoration: none;
   color: #333;
-  font-weight: 500; /* <-- ADD ONLY THIS */
+  font-weight: 400; /* <-- ADD ONLY THIS */
   transition: color 0.2s ease, font-weight 0.2s ease; /* <-- MODIFY THIS LINE ONLY (added font-weight transition) */
 }
 
@@ -141,10 +141,10 @@ p {
   /* font-family: 'Inter', sans-serif; */
   font-weight: 600; /* Choose your weight: 500, 700 etc. as loaded above */
   font-size: 1rem;
-  background-color: #6C447B;
+  background-color: #2E1C35; 
   color: #ffffff;
   padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -163,7 +163,7 @@ p {
   top: 100%;
   background-color: #ffffff;
   border: 1px solid #080808;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   box-shadow: 0 4px 8px rgba(46, 45, 45, 0.2);
   padding: 0.5rem 0;
   /* margin-top: 1rem; */
@@ -177,7 +177,7 @@ p {
   color: #333;
   font-weight: 500;
   padding: 1rem 1rem;
-  font-size: 1.25rem; 
+  font-size: 1rem; 
   text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
 }

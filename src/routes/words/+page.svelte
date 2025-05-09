@@ -46,7 +46,7 @@
 
 <div class="container">
   <h1>Words Matter</h1>
-  <p>Lyrics and reflections Asbury Park and Olivewood Avenue</p>
+  <p>Lyrics and reflections live from Asbury Park and Olivewood Ave</p>
 
   <div class="pdf-grid">
     {#each pdfs as pdf}
