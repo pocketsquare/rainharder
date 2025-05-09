@@ -30,6 +30,11 @@ body.words-page {
   background-image: url('/patterns/words-pattern.png');
 }
 
+/* Fools Page Styles */
+body.fools-page {
+  background-image: none;
+}
+
 /* Container */
 .container {
   display: flex;

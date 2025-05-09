@@ -21,3 +21,5 @@
 
   <p>(the proper quote, like extreme ownership but better. ooda loops. the hard thing about hard things)</p>
 </div>
+
+
