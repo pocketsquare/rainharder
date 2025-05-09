@@ -1,9 +1,9 @@
-/* Light Theme with Subtle Pattern */
+/* Global Styles */
 body { 
   font-family: Georgia, serif; 
-  background-color: #f9f9f9; /* Light background */
-  background-repeat: repeat; /* Keep repeat for SVGs */
-  color: #333333; /* Dark text for light background */
+  background-color: #f9f9f9; 
+  background-repeat: repeat; 
+  color: #333333; 
   display: flex; 
   flex-direction: column;
   align-items: center; 
@@ -13,33 +13,32 @@ body {
   text-align: center;
 }
 
-/* Home page pattern placeholder */
+/* Home Page Specific Styles */
 body.home-page {
-  /* was background-image: url('/subtle-pattern.png'); */
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='46' viewBox='0 0 70 46'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.57'%3E%3Cpolygon points='68 44 62 44 62 46 56 46 56 44 52 44 52 46 46 46 46 44 40 44 40 46 38 46 38 44 32 44 32 46 26 46 26 44 22 44 22 46 16 46 16 44 12 44 12 46 6 46 6 44 0 44 0 42 8 42 8 28 6 28 6 0 12 0 12 28 10 28 10 42 18 42 18 28 16 28 16 0 22 0 22 28 20 28 20 42 28 42 28 28 26 28 26 0 32 0 32 28 30 28 30 42 38 42 38 0 40 0 40 42 48 42 48 28 46 28 46 0 52 0 52 28 50 28 50 42 58 42 58 28 56 28 56 0 62 0 62 28 60 28 60 42 68 42 68 0 70 0 70 46 68 46'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-/* Words page pattern placeholder */
+/* Words Page Styles */
 body.words-page {
   background-image: url('/patterns/words-pattern.png');
-  /* background-color: #fff4d6;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
 }
 
+/* Container */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
   max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
 
+/* Typography */
 h1 { 
   font-size: 3rem; 
   color: #222222;
@@ -51,6 +50,7 @@ p {
   color: #444444;
 }
 
+/* Video Embeds */
 .video-container {
   margin: 2rem 0;
   width: 100%;
@@ -62,6 +62,7 @@ p {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Link List */
 .link-list {
   list-style: none;
   padding: 0;
@@ -90,7 +91,7 @@ p {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Header component styles */
+/* Header Component */
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -101,7 +102,12 @@ p {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.logo-placeholder,
+.logo-container img {
+  height: var(--logo-height, 50px);
+  width: auto;
+  display: block;
+}
+
 .donation-placeholder {
   font-size: 1.5rem;
   color: #333333;
@@ -119,7 +125,7 @@ p {
   color: #000000;
 }
 
-/* Words page styles */
+/* PDF Grid & Cards for Words Page */
 .pdf-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -147,10 +153,6 @@ p {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.pdf-icon {
-  margin-bottom: 1rem;
-}
-
 .pdf-icon svg {
   width: 2.5rem;
   height: 2.5rem;
@@ -159,7 +161,7 @@ p {
 
 .pdf-card h2 {
   font-size: 1.4rem;
-  margin: 0 0 0.5rem 0;
+  margin-bottom: 0.5rem;
   color: #222222;
 }
 
@@ -169,19 +171,3 @@ p {
   opacity: 0.8;
   color: #555555;
 }
-
-/* Commented out dark theme for future reference
-/*
-body { 
-  font-family: Georgia, serif; 
-  background-color: #121212; 
-  color: #f5f5f5;
-  display: flex; 
-  flex-direction: column;
-  align-items: center; 
-  justify-content: flex-start;
-  min-height: 100vh; 
-  margin: 0;
-  text-align: center;
-}
-*/

@@ -1,6 +1,13 @@
 <!-- lib/Header.svelte -->
-<header class="site-header">
-    <div class="logo-placeholder">LOGO</div>
+<script>
+    export let logoHeight = "50px";  // Easily adjustable height
+    // <Header height="80px" /> <!-- Easy to customize per file-->
+  </script>
+  
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="/rainharder.png" alt="Rain Harder Logo" style="height: {logoHeight}; width: auto;">
+    </div>
     <nav class="navigation">
       <a href="/">Home</a>
       <a href="/about">About</a>
