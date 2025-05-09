@@ -15,12 +15,22 @@
     {
       title: 'Darkness on the Edge of Town',
       file: '/pdfs/words/Darkness on the Edge of Town.pdf',
-      description: 'Lyrics and reflections on the album title track'
+      description: 'Lyrics and reflections on "Darkness at the Edge of Town'
     },
     {
       title: 'The Promised Land',
       file: '/pdfs/words/The Promised Land.pdf',
       description: 'Lyrics and reflections on "The Promised Land"'
+    },
+    {
+      title: 'Born in the U.S.A.',
+      file: '/pdfs/words/ACT_English_Words_4_Revised.pdf',
+      description: 'Lyrics and reflections on ACT English'
+    },
+    {
+      title: 'The Street of Brookpark',
+      file: '/pdfs/words/Old_Brook_Parma_1.pdf',
+      description: 'Lyrics and reflections on the Moon over Parma student nights'
     }
   ];
 
