@@ -44,7 +44,9 @@
   <link rel="stylesheet" href="/styles.css">
 </svelte:head>
 
-<div class="container">
+<!-- needs specificity. vibe coding is for people who killed Kennedy -->
+
+<div class="container"> 
   <h1>Words Matter</h1>
   <p>Lyrics and reflections live from Asbury Park and Olivewood Ave</p>
 
