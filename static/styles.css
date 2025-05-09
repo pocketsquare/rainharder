@@ -1,6 +1,6 @@
 /* Global Styles */
 body { 
-  font-family: Georgia, serif; 
+  font-family: Inter, Georgia, serif; /*needs to fix inter */
   background-color: #f9f9f9; 
   background-repeat: repeat; 
   color: #333333; 
@@ -117,11 +117,13 @@ p {
 .navigation a {
   text-decoration: none;
   color: #333;
-  transition: color 0.2s ease;
+  font-weight: 500; /* <-- ADD ONLY THIS */
+  transition: color 0.2s ease, font-weight 0.2s ease; /* <-- MODIFY THIS LINE ONLY (added font-weight transition) */
 }
 
 .navigation a:hover {
-  color: #007bff;
+  color: #000000; 
+  font-weight: 600; /* <-- ADD ONLY THIS */
 }
 
 /* Donate Button */
@@ -130,7 +132,7 @@ p {
 }
 
 .donate-button {
-  font-family: 'Inter', sans-serif; /* Directly using the font */
+  /* font-family: 'Inter', sans-serif; */
   font-weight: 600; /* Choose your weight: 500, 700 etc. as loaded above */
   font-size: 1rem;
   background-color: #6C447B;
@@ -154,10 +156,11 @@ p {
   right: 0;
   top: 100%;
   background-color: #ffffff;
-  border: 1px solid #ddd;
+  border: 1px solid #080808;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(46, 45, 45, 0.2);
   padding: 0.5rem 0;
+  /* margin-top: 1rem; */
   display: flex;
   flex-direction: column;
   min-width: 180px;
@@ -166,16 +169,18 @@ p {
 
 .donate-dropdown a {
   color: #333;
-  padding: 0.5rem 1rem;
+  font-weight: 500;
+  padding: 1rem 1rem;
+  font-size: 1.25rem; 
   text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .donate-dropdown a:hover {
   background-color: #f1f1f1;
-  color: #007bff;
+  color: #000000;
+  font-weight: 600; 
 }
-
 
 .navigation a:hover {
   color: #000000;
