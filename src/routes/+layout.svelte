@@ -25,6 +25,10 @@
     $: if ($page) updateBodyClass();
   </script>
   
+  <svelte:head>
+    <script defer data-domain="rainharder.com" src="https://plausible.io/js/script.js"></script>
+  </svelte:head>
+
   <Header />
   
   <slot></slot>
