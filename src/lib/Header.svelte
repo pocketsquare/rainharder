@@ -18,6 +18,7 @@
       <a href="https://www.rainharder.com/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf">the boozinf</a>
       <a href="/words">words matter</a>
       <a href="/fools">fool's gold</a>
+      <a href="/fools">kid ai</a>      
       <a href="https://rocketreach.co/jimmy-haslam-email_55376650">contact</a>
     </nav>
 
