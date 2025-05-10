@@ -12,13 +12,13 @@
       </a>
     </div>
 
-    <!-- this is stupid and should be in CSS unless you keep pushing tailwind-->
+    <!-- this is stupid and should be in CSS unless you keep pushing tailwind -->
 
     <nav class="navigation" style="display: flex; gap: 2rem; margin-left: auto; padding-right: 3.2rem; font-size: {linkFontSize}">
-      <a href="https://www.rainharder.com/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf">the boozinf</a>
+        <a href="/kidai">kid ai</a>
+        <a href="https://www.rainharder.com/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf">the boozinf</a>
       <a href="/words">words matter</a>
       <a href="/fools">fool's gold</a>
-      <a href="/fools">kid ai</a>      
       <a href="https://rocketreach.co/jimmy-haslam-email_55376650">contact</a>
     </nav>
 
