@@ -16,10 +16,10 @@
 
     <nav class="navigation" style="display: flex; gap: 2rem; margin-left: auto; padding-right: 3.2rem; font-size: {linkFontSize}">
         <a href="/kidai">kid ai</a>
-        <a href="https://www.rainharder.com/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf">the boozinf</a>
+        <a href="https://www.rainharder.com/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf">the art</a>
       <a href="/words">words matter</a>
-      <a href="/fools">fool's gold</a>
-      <a href="https://rocketreach.co/jimmy-haslam-email_55376650">contact</a>
+      <a href="/fools">beta condoms</a>
+      <a href="https://rocketreach.co/jimmy-haslam-email_55376650">eye contact</a>
     </nav>
 
     <!-- Completely untouched your Donate container styling & logic -->

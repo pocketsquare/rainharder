@@ -250,3 +250,34 @@ body.fools-page {
   opacity: 0.8;
   color: #555555;
 }
+
+/* this is where it gets good */
+
+.gruesome-twosome {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* aligns vertically */
+  gap: 2rem; /* tasteful spacing between personas */
+  flex-wrap: wrap; /* responsive on smaller screens */
+  padding: 1rem; /* padding within the container */
+}
+
+.persona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.persona img {
+  max-width: 200px; /* adjust as necessary */
+  height: auto;
+  border-radius: 8px; /* subtle rounded corners */
+}
+
+.persona p {
+  margin-top: 0.75rem; /* space between image and name */
+  font-weight: 500; /* semi-bold for visibility */
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
