@@ -5,7 +5,7 @@
 
 <div class="container">
   <h1>MAKE IT RAIN HARDER</h1>
-  <!-- <p>(Make it rain harder.)</p> -->
+  <p>letters. words. phrases.</p>
 
   <div class="video-container">
     <iframe 
