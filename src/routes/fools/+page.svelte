@@ -1,7 +1,13 @@
 <script>
+  import { onMount } from 'svelte';
+
+  onMount(() => {
+    document.body.classList.add('fools-page');
+    return () => document.body.classList.remove('fools-page');
+  });
+
   const title = "The Beta Condoms";
   const tagline = "We may be dumb, but we're not stupid.";
-
   let profiles = [
     { name: 'Stevie Cleveland', imgSrc: '/SC_1.png', alt: 'Stevie Cleveland' },
     { name: 'Clarence Diamond', imgSrc: '/CD_1.png', alt: 'Clarence Diamond' },

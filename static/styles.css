@@ -282,3 +282,15 @@ body.fools-page {
   color: #333;
   text-align: center;
 }
+
+/* this will get pulled in from something like Spotify later. but for now */
+
+.episode-sample {
+  background-color: rgba(255, 255, 255, 0.85); /* translucent white */
+  padding: 1rem;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  max-width: 600px; /* adjust for readability */
+  text-align: center;
+  color: #333; /* dark text color */
+}
