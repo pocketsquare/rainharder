@@ -1,6 +1,13 @@
 <script>
   const title = "The Beta Condoms";
   const tagline = "We may be dumb, but we're not stupid.";
+
+  let profiles = [
+    { name: 'Stevie Cleveland', imgSrc: '/SC_1.png', alt: 'Stevie Cleveland' },
+    { name: 'Clarence Diamond', imgSrc: '/CD_1.png', alt: 'Clarence Diamond' },
+    { name: 'Stevie Cleveland', imgSrc: '/rockwell.png', alt: 'Stevie Cleveland' },
+    { name: 'Clarence Diamond', imgSrc: '/goggins.png', alt: 'Clarence Diamond' }
+  ];
 </script>
 
 <svelte:head>
@@ -13,16 +20,14 @@
   <h1>{title}</h1>
   <p>{tagline}</p>
 
-<section class="gruesome-twosome">
-  <div class="persona">
-    <img src="/SC_1.png" alt="Stevie Cleveland" />
-    <p>Stevie Cleveland</p>
-  </div>
-  <div class="persona">
-    <img src="/CD_1.png" alt="Clarence Diamond" />
-    <p>Clarence Diamond</p>
-  </div>
-</section>
+  <section class="gruesome-twosome">
+    {#each profiles as profile}
+      <div class="persona">
+        <img src={profile.imgSrc} alt={profile.alt} />
+        <p>{profile.name}</p>
+      </div>
+    {/each}
+  </section>
 
   <section class="episode-sample">
     <h2>Episode 1: Fool's Gold</h2>
