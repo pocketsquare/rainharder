@@ -8,6 +8,9 @@
 
   const title = "The Beta Condoms";
   const tagline = "We may be dumb, but we're not stupid.";
+
+// 1.07734807 = the current picture ratio
+
   let profiles = [
     { name: 'Stevie Cleveland', imgSrc: '/SC_1.png', alt: 'Stevie Cleveland' },
     { name: 'Clarence Diamond', imgSrc: '/CD_1.png', alt: 'Clarence Diamond' },
