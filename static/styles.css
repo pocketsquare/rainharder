@@ -294,3 +294,36 @@ body.fools-page {
   text-align: center;
   color: #333; /* dark text color */
 }
+
+/* everything in its right place */
+
+.ai-bros-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-bro-item {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.provider {
+  flex: 1;
+  text-align: left;
+  font-weight: bold;
+}
+
+.description {
+  flex: 1;
+  text-align: left;
+}
+
+.description a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.description a:hover {
+  text-decoration: underline;
+}
