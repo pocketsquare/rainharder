@@ -1,6 +1,15 @@
 <script>
+  import { onMount } from 'svelte';
+
   const title = "Subtractive Capability";
   const tagline = "Adventures in the Skein Trade";
+
+  onMount(() => {
+    document.body.classList.add('kidai-page');
+    return () => {
+      document.body.classList.remove('kidai-page');
+    };
+  });
 </script>
 
 <svelte:head>
@@ -9,7 +18,7 @@
   <link rel="stylesheet" href="/styles.css" />
 </svelte:head>
 
-<div class="fools-container">
+<div class="kidai-container">
   <h1>{title}</h1>
   <p>{tagline}</p>
 

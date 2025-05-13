@@ -63,6 +63,11 @@ body.words-page {
   background-image: url('/patterns/words-pattern.png');
 }
 
+/* Kid AI Page Styles */
+body.kidai-page {
+  background-image: url('/patterns/junk-mail.jpg');
+}
+
 /* Fools / Gruesome Twosome Page Styles */
 body.fools-page {
     background-color: #DFDBE5;
@@ -326,4 +331,17 @@ body.fools-page {
 
 .description a:hover {
   text-decoration: underline;
+}
+
+/* moar, she cried, but i don't lknow what it means */
+
+.kidai-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  color: #333;
+  text-align: center;
 }
