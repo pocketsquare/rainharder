@@ -39,7 +39,12 @@
   </section>
 
   <section class="episode-sample">
-    <h2>Episode 1: Fool's Gold</h2>
+    <h2>Episode 1: Nob Hill</h2>
+    <p>In Colfax We Trust</p>
+  </section>
+
+  <section class="episode-sample">
+    <h2>Episode 2: Fool's Gold</h2>
     <p>Denver Stones, Denver Bones, Stone Roses. Special guest: Elvis.</p>
   </section>
 </div>

@@ -30,7 +30,7 @@
       <div class="donate-dropdown">
         <a href="https://1strcf.org/make-a-donation/" target="_blank" rel="noopener noreferrer">First Responders</a>
         <a href="https://www.coloradoveteranschamber.org" target="_blank" rel="noopener noreferrer">Colorado Veterans</a>
-        <a href="https://denverzoo.org/support/donate/" target="_blank" rel="noopener noreferrer">Denver Zoo</a>    
+        <a href="https://give.dug.org/give/498865" target="_blank" rel="noopener noreferrer">Denver Urban</a>    
         <a href="https://give.propublica.org/give/346423/%23!/donation/checkout#!/donation/checkout" target="_blank" rel="noopener noreferrer">ProPublica</a>
       </div>      
       {/if}

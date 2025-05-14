@@ -22,9 +22,7 @@
   <ul class="link-list">
     <li><a href="/pdfs/Sammy_Buckets_Misses.pdf">Sammy Buckets Misses</a></li>
     <li>
-      <a href="/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf" target="_blank">
-        The Art of Dressing Fiscally
-      </a>
+      <a href="/art">The Art of Dressing Fiscally</a>
     </li>
     <li>
       <a href="/fools">
