@@ -345,3 +345,23 @@ body.fools-page {
   color: #333;
   text-align: center;
 }
+
+/* Le Chat magick*/
+
+.negligee {
+  position: relative;
+  z-index: 2; /* Adjust z-index as needed */
+  height: 100px; /* Adjust height as needed */
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust background as needed */
+  /* Add other styles as needed */
+}
+
+.gruesome-twosome {
+  position: relative;
+  z-index: 1; /* Domino layer */
+}
+
+.episode-sample {
+  position: relative;
+  z-index: 3; /* Episode layer */
+}
