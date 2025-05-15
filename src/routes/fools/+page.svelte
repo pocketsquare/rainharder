@@ -6,7 +6,7 @@
     return () => document.body.classList.remove('fools-page');
   });
 
-  const title = "The Beta Condoms";
+  const title = "Beta Condoms";
   const tagline = "We may be dumb, but we're not stupid.";
 
   // 1.07734807 = the current picture ratio
@@ -48,6 +48,6 @@
 
   <section class="episode-sample">
     <h2>Episode 2: Fool's Gold</h2>
-    <p>Denver Stones, Denver Bones, Stone Roses. Special guest: Elvis.</p>
+    <p>Denver Bones. Stone Roses.</p>
   </section>
 </div>
