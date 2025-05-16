@@ -66,24 +66,32 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .ai-bro-item {
   flex: 1 1 calc(50% - 1rem);
   padding: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 0; /* removes rounded corners for rectangular shape */
+  border-radius: 0;
+  display: flex;
+  align-items: baseline;
 }
 
-  .provider {
-    font-weight: 700;
-    margin-bottom: 0.25rem;
-  }
+.provider {
+  flex: 1;
+  text-align: left;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
 
-  .description {
-    font-weight: 500;
-  }
+.description {
+  flex: 1;
+  text-align: left;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.2;
+}
 
   @media (max-width: 768px) {
     .kidai-container {
