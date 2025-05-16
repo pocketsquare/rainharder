@@ -18,6 +18,107 @@
   <link rel="stylesheet" href="/styles.css" />
 </svelte:head>
 
+<style>
+  @font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/GillSansLight/font.woff2') format('woff2'),
+         url('/fonts/GillSansLight/font.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/GillSansBold/font.woff2') format('woff2'),
+         url('/fonts/GillSansBold/font.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .kidai-container {
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: 600;
+  max-width: 900px;
+  padding: 2rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 0 !important;
+  overflow: visible !important;
+}
+
+
+  h1 {
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .ai-bros-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .ai-bro-item {
+  flex: 1 1 calc(50% - 1rem);
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0; /* removes rounded corners for rectangular shape */
+}
+
+  .provider {
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  .description {
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .kidai-container {
+      padding: 1.5rem;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .ai-bro-item {
+      flex: 1 1 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .kidai-container {
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+</style>
+
 <div class="kidai-container">
   <h1>{title}</h1>
   <p>{tagline}</p>

@@ -352,7 +352,8 @@ body.fools-page {
   position: relative;
   z-index: 2; /* Adjust z-index as needed */
   height: 100px; /* Adjust height as needed */
-  background-color: rgba(0, 0, 0, 0.1); /* Adjust background as needed */
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  margin: 20px 0; /* Adjust margin as needed */
   /* Add other styles as needed */
 }
 
@@ -364,4 +365,66 @@ body.fools-page {
 .episode-sample {
   position: relative;
   z-index: 3; /* Episode layer */
+}
+
+/* Gill Sans JP */
+
+/* Gill Sans Light */
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('/fonts/GillSans/GillSansLight/font.woff2') format('woff2'),
+       url('/fonts/GillSans/GillSansLight/font.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Gill Sans Light Italic */
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('/fonts/GillSans/GillSansLightItalic/font.woff2') format('woff2'),
+       url('/fonts/GillSans/GillSansLightItalic/font.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Gill Sans Medium */
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('/fonts/GillSans/GillSansMedium/font.woff2') format('woff2'),
+       url('/fonts/GillSans/GillSansMedium/font.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Gill Sans Medium Italic */
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('/fonts/GillSans/GillSansMediumItalic/font.woff2') format('woff2'),
+       url('/fonts/GillSans/GillSansMediumItalic/font.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Gill Sans Bold */
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('/fonts/GillSans/GillSansBold/font.woff2') format('woff2'),
+       url('/fonts/GillSans/GillSansBold/font.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Gill Sans Bold Italic */
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('/fonts/GillSans/GillSansBoldItalic/font.woff2') format('woff2'),
+       url('/fonts/GillSans/GillSansBoldItalic/font.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
 }
