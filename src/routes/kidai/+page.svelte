@@ -63,19 +63,18 @@
   }
 
   .ai-bros-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1.5rem;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
-  .ai-bro-item {
-  flex: 1 1 calc(50% - 1rem);
+.ai-bro-item {
   padding: 0.5rem;
   border-radius: 0;
   display: flex;
   align-items: baseline;
 }
+
 
 .provider {
   flex: 1;
@@ -151,7 +150,7 @@
       </div>
       <div class="ai-bro-item">
         <div class="provider">Meta</div>
-        <div class="description"></div>
+        <div class="description"> </div>
       </div>
       <div class="ai-bro-item">
         <div class="provider">Gemini</div>
