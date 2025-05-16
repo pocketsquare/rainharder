@@ -44,8 +44,8 @@
   padding: 2rem;
   margin: 0 auto;
   box-sizing: border-box;
-  border-radius: 0 !important;
-  overflow: visible !important;
+  border-radius: 0;
+  overflow: visible;
 }
 
 
