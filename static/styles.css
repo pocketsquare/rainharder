@@ -13,6 +13,32 @@ body {
   text-align: center;
 }
 
+/* Target content links, exclude header/footer links by href pattern */
+body a:not([href*="kid-ai"]):not([href*="the-art"]):not([href*="words-matter"]) {
+    color: #444444; /* Dark grey */
+    text-decoration: underline dotted;
+    text-underline-offset: 3px; /* Lower the underline by a pixel (default is ~2px) */
+    transition: color 0.2s ease;
+}
+
+/* Hover state: change color instead of font-weight */
+body a:not([href*="kid-ai"]):not([href*="the-art"]):not([href*="words-matter"]):hover {
+    color: #666666; /* Lighter grey on hover */
+}
+
+/* Visited state: change color instead of font-weight */
+body a:not([href*="kid-ai"]):not([href*="the-art"]):not([href*="words-matter"]):visited {
+    color: #333333; /* Darker grey when visited */
+}
+
+/* Protect header links with higher specificity */
+header a[href*="kid-ai"],
+header a[href*="the-art"],
+header a[href*="words-matter"] {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 /* Home Page Specific Styles */
 body.home-page {
   background-color: #ffffff;

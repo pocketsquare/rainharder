@@ -62,7 +62,7 @@
     margin-bottom: 1.5rem;
   }
 
-  .ai-bros-list {
+.ai-bros-list {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -134,7 +134,9 @@
     <div class="ai-bros-list">
       <div class="ai-bro-item">
         <div class="provider">ChatGPT</div>
-        <div class="description">Sammy Buckets</div>
+        <div class="description">
+          <a href="/pdfs/Sammy_Buckets_Misses.pdf" target="_blank" rel="noopener noreferrer">Sammy Buckets</a>
+        </div>
       </div>
       <div class="ai-bro-item">
         <div class="provider">Claude</div>
