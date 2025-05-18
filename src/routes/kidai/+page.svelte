@@ -34,87 +34,87 @@
     max-width: 900px;
     padding: 2rem;
     margin: 0 auto;
+    margin-top: -1.3rem;
     box-sizing: border-box;
     border-radius: 0;
     overflow: visible;
   }
 
   h1 {
-    font-family: 'BD Plakatbau', sans-serif;
-    font-weight: normal;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    margin-top: -1rem;
+  font-family: 'BD Plakatbau', sans-serif;
+  font-weight: normal;
+  font-size: 5rem; /* Increased from 3rem */
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+p {
+  font-family: 'BD Plakatbau', sans-serif;
+  font-size: 2.2rem; /* Increased from 1.5rem */
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.provider {
+  flex: 1;
+  text-align: left;
+  font-weight: normal;
+  font-size: 2.2rem; /* Added explicit size */
+  margin: 0;
+  line-height: 2;
+}
+
+.description {
+  flex: 1;
+  text-align: left;
+  font-weight: normal;
+  font-size: 2.2rem; /* Added explicit size */
+  margin: 0;
+  line-height: 2;
+}
+
+@media (max-width: 768px) {
+  .kidai-container {
+    padding: 1.5rem;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5rem; /* Increased from 2rem */
   }
 
   p {
-    font-family: 'BD Plakatbau', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
+    font-size: 1.5rem; /* Increased from 1.1rem */
   }
 
-  .ai-bros-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  .provider,
+  .description {
+    font-size: 1.25rem; /* Added for responsiveness */
   }
 
   .ai-bro-item {
-    padding: 0.5rem;
-    border-radius: 0;
-    display: flex;
-    align-items: baseline;
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .kidai-container {
+    padding: 1rem;
   }
 
-  .provider {
-    flex: 1;
-    text-align: left;
-    font-weight: normal;
-    margin: 0;
-    line-height: 1.2;
+  h1 {
+    font-size: 2rem; /* Increased from 1.75rem */
   }
 
+  p {
+    font-size: 1.25rem; /* Increased from 1rem */
+  }
+
+  .provider,
   .description {
-    flex: 1;
-    text-align: left;
-    font-weight: normal;
-    margin: 0;
-    line-height: 1.2;
+    font-size: 1rem; /* Added for responsiveness */
   }
-
-  @media (max-width: 768px) {
-    .kidai-container {
-      padding: 1.5rem;
-      width: 100%;
-    }
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    p {
-      font-size: 1.1rem;
-    }
-
-    .ai-bro-item {
-      flex: 1 1 100%;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .kidai-container {
-      padding: 1rem;
-    }
-
-    h1 {
-      font-size: 1.75rem;
-    }
-
-    p {
-      font-size: 1rem;
-    }
-  }
+}
 </style>
 
 <div class="kidai-container">
