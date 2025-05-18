@@ -6,6 +6,7 @@
 <div class="container">
   <h1>MAKE IT RAIN HARDER</h1>
   <p>letters. words. phrases.</p>
+  <p>reality and i have an open relationship</p>
 
   <div class="video-container">
     <iframe 

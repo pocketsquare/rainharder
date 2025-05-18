@@ -19,7 +19,6 @@
   .container.amajor-page {
     font-family: 'Gill Sans', sans-serif;
     font-weight: 500;
-    margin-top: 0;
   }
 
   h1 {
