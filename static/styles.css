@@ -11,6 +11,7 @@ body {
   min-height: 100vh; 
   margin: 0;
   text-align: center;
+  overflow-x: hidden; /* Prevent horizontal scroll on mobile */
 }
 
 /* Target content links, exclude header/footer links by href pattern */
@@ -104,9 +105,12 @@ body.fools-page {
 .video-container {
   margin: 2rem 0;
   width: 100%;
+  text-align: center;
 }
 
 .video-container iframe {
+  width: 560px;
+  height: 315px;
   max-width: 100%;
   border: 1px solid #dddddd;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -174,6 +178,17 @@ body.fools-page {
 .navigation a:hover {
   color: #000000; 
   font-weight: 600; /* <-- ADD ONLY THIS */
+}
+
+/* Mobile menu button - hidden by default */
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 100;
 }
 
 /* Donate Button */
@@ -453,4 +468,165 @@ body.fools-page {
   font-weight: 700;
   font-style: italic;
   font-display: swap;
+}
+
+/* Mobile Menu Backdrop - Hidden by default */
+.mobile-menu-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 98;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  appearance: none;
+}
+
+/* Hide mobile logo by default */
+.mobile-logo {
+  display: none;
+}
+
+/* Mobile menu styles - Only apply below 768px */
+@media (max-width: 768px) {
+  /* Basic responsive adjustments */
+  .container {
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* Slightly smaller for readability */
+    word-wrap: break-word;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  /* Make video container responsive */
+  .video-container iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  
+  /* Responsive header navigation */
+  .site-header {
+    padding: 0.8rem 1rem;
+  }
+  
+  .menu-button {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 101;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .navigation {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    max-width: 250px;
+    background-color: rgba(255, 255, 255, 0.95);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    transition: right 0.3s ease;
+    z-index: 99;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .navigation.active {
+    right: 0;
+  }
+  
+  .navigation a {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+  }
+  
+  .mobile-menu-backdrop.active {
+    display: block;
+  }
+  
+  /* Responsive PDF grid */
+  .pdf-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* Responsive donate button and dropdown */
+  .donate-button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .donate-dropdown {
+    min-width: 150px;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .site-header {
+    padding: 0.6rem 0.8rem;
+  }
+  
+  .logo-container .desktop-logo {
+    display: none; /* Hide desktop logo on mobile */
+  }
+  
+  .logo-container .mobile-logo {
+    display: block; /* Show mobile logo */
+    height: 30px !important; /* Override inline style */
+  }
+  
+  .navigation {
+    width: 85%;
+  }
+  
+  .pdf-grid {
+    grid-template-columns: 1fr; /* Single column on very small devices */
+  }
+  
+  .donate-dropdown a {
+    padding: 0.8rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .ai-bro-item {
+    flex-direction: column;
+    font-size: 16px;
+  }
+  
+  .provider, .description {
+    text-align: center;
+  }
+  
+  /* Smaller spacing in gruesome twosome */
+  .gruesome-twosome {
+    gap: 1rem;
+  }
+  
+  .persona img {
+    max-width: 150px;
+  }
 }
