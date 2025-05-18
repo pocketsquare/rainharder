@@ -15,6 +15,23 @@
   <link rel="stylesheet" href="/styles.css">
 </svelte:head>
 
+<style>
+  .container.amajor-page {
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  p {
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 500;
+  }
+</style>
+
 <div class="container amajor-page">
   <h1>A Major</h1>
   <p>
