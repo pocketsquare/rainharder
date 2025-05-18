@@ -1,3 +1,4 @@
+```svelte
 <script>
   import { onMount } from 'svelte';
 
@@ -20,77 +21,67 @@
 
 <style>
   @font-face {
-    font-family: 'Gill Sans';
-    src: url('/fonts/GillSansLight/font.woff2') format('woff2'),
-         url('/fonts/GillSansLight/font.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'Gill Sans';
-    src: url('/fonts/GillSansBold/font.woff2') format('woff2'),
-         url('/fonts/GillSansBold/font.woff') format('woff');
-    font-weight: 700;
+    font-family: 'BD Plakatbau';
+    src: url('/fonts/bd-plakatbau.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
 
   .kidai-container {
-  font-family: 'Gill Sans', sans-serif;
-  font-weight: 600;
-  max-width: 900px;
-  padding: 2rem;
-  margin: 0 auto;
-  box-sizing: border-box;
-  border-radius: 0;
-  overflow: visible;
-}
-
+    font-family: 'BD Plakatbau', sans-serif;
+    font-weight: normal;
+    max-width: 900px;
+    padding: 2rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 0;
+    overflow: visible;
+  }
 
   h1 {
-    font-family: 'Gill Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'BD Plakatbau', sans-serif;
+    font-weight: normal;
     font-size: 3rem;
     margin-bottom: 1rem;
+    margin-top: -1rem;
   }
 
   p {
+    font-family: 'BD Plakatbau', sans-serif;
     font-size: 1.5rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
   }
 
-.ai-bros-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
+  .ai-bros-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-.ai-bro-item {
-  padding: 0.5rem;
-  border-radius: 0;
-  display: flex;
-  align-items: baseline;
-}
+  .ai-bro-item {
+    padding: 0.5rem;
+    border-radius: 0;
+    display: flex;
+    align-items: baseline;
+  }
 
+  .provider {
+    flex: 1;
+    text-align: left;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.2;
+  }
 
-.provider {
-  flex: 1;
-  text-align: left;
-  font-weight: 700;
-  margin: 0;
-  line-height: 1.2;
-}
-
-.description {
-  flex: 1;
-  text-align: left;
-  font-weight: 500;
-  margin: 0;
-  line-height: 1.2;
-}
+  .description {
+    flex: 1;
+    text-align: left;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.2;
+  }
 
   @media (max-width: 768px) {
     .kidai-container {
@@ -165,3 +156,4 @@
     </div>
   </section>
 </div>
+```
