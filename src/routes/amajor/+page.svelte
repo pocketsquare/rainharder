@@ -19,6 +19,7 @@
   .container.amajor-page {
     font-family: 'Gill Sans', sans-serif;
     font-weight: 500;
+    margin-top: 0;
   }
 
   h1 {
@@ -29,6 +30,8 @@
   p {
     font-family: 'Gill Sans', sans-serif;
     font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.4;
   }
 </style>
 
