@@ -10,19 +10,20 @@
         mobileMenuOpen = false;
     }
     
-    // Handle keyboard events for accessibility
-    function handleKeyDown(event) {
-        if (event.key === 'Escape') {
-            closeMobileMenu();
-        }
-    }
+    // Handle keyboard events for accessibility - this is broken and Copilot can't fix Claude Code's mistake
+    // function handleKeyDown(event) {
+    //     if (event.key === 'Escape') {
+    //         closeMobileMenu();
+    //     }
+    // }
 </script>
 
 <header class="site-header" style="display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 1rem;">
     <div class="logo-container">
       <a href="/">
         <img class="desktop-logo" src="/rainharder2.png" alt="Rain Harder Logo" style="height: {logoHeight}; width: auto; margin-left: 1.5vw;">
-        <img class="mobile-logo" src="/rainharder3.png" alt="Rain Harder Mobile Logo" style="height: {logoHeight}; width: auto; margin-left: 1.5vw;">
+        <!-- what the fuck, Anthropic -->
+        <!-- <img class="mobile-logo" src="/rainharder3.png" alt="Rain Harder Mobile Logo" style="height: {logoHeight}; width: auto; margin-left: 1.5vw;"> -->
       </a>
     </div>
 
@@ -59,8 +60,9 @@
     </div>
 </header>
 
+<!-- this is another of Claude Code's mistakes
+
 {#if mobileMenuOpen}
-  <!-- Use button instead of div for better accessibility -->
   <button 
     class="mobile-menu-backdrop" 
     on:click={closeMobileMenu}
@@ -68,4 +70,4 @@
     aria-label="Close mobile menu"
     tabindex="0">
   </button>
-{/if}
+{/if} -->
