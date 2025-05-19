@@ -58,12 +58,14 @@ body.home-page {
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 /* Typography */
 h1 { 
   font-size: 3rem; 
   color: #222222;
+  word-wrap: break-word;
 }
 
 p { 
@@ -105,13 +107,18 @@ body.fools-page {
 .video-container {
   margin: 2rem 0;
   width: 100%;
-  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
 }
 
 .video-container iframe {
-  width: 560px;
-  height: 315px;
-  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   border: 1px solid #dddddd;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -171,13 +178,13 @@ body.fools-page {
 .navigation a {
   text-decoration: none;
   color: #333;
-  font-weight: 400; /* <-- ADD ONLY THIS */
-  transition: color 0.2s ease, font-weight 0.2s ease; /* <-- MODIFY THIS LINE ONLY (added font-weight transition) */
+  font-weight: 400;
+  transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .navigation a:hover {
   color: #000000; 
-  font-weight: 600; /* <-- ADD ONLY THIS */
+  font-weight: 600;
 }
 
 /* Mobile menu button - hidden by default */
@@ -317,6 +324,7 @@ body.fools-page {
 
 .persona img {
   max-width: 200px; /* adjust as necessary */
+  width: 100%; /* Make images responsive */
   height: auto;
   border-radius: 8px; /* subtle rounded corners */
 }
@@ -337,31 +345,26 @@ body.fools-page {
   margin: 1.5rem auto;
   border-radius: 8px;
   max-width: 600px; /* adjust for readability */
+  width: 90%; /* Make responsive */
   text-align: center;
   color: #333; /* dark text color */
 }
 
 /* everything in its right place */
 
+/* Two-column layout for KidAI page */
 .ai-bros-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
 }
 
-.ai-bro-item {
-  display: flex;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
+/* Generic styles for AI items */
 .provider {
-  flex: 1;
-  text-align: left;
   font-weight: bold;
 }
 
 .description {
-  flex: 1;
   text-align: left;
 }
 
@@ -488,11 +491,20 @@ body.fools-page {
 
 /* Hide mobile logo by default */
 .mobile-logo {
-  display: none;
+  display: none !important; /* Use important to absolutely ensure it's hidden on desktop */
 }
 
 /* Mobile menu styles - Only apply below 768px */
 @media (max-width: 768px) {
+  /* Show mobile logo, hide desktop logo */
+  .mobile-logo {
+    display: block !important;
+  }
+  
+  .desktop-logo {
+    display: none !important;
+  }
+  
   /* Basic responsive adjustments */
   .container {
     width: 95%;
@@ -510,10 +522,19 @@ body.fools-page {
   }
   
   /* Make video container responsive */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
   .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
+    height: 100%;
   }
   
   /* Responsive header navigation */
@@ -590,13 +611,16 @@ body.fools-page {
     padding: 0.6rem 0.8rem;
   }
   
+  .logo-container img {
+    height: 30px !important; /* Override inline style */
+  }
+  
   .logo-container .desktop-logo {
     display: none; /* Hide desktop logo on mobile */
   }
   
   .logo-container .mobile-logo {
-    display: block; /* Show mobile logo */
-    height: 30px !important; /* Override inline style */
+    display: block !important; /* Show mobile logo */
   }
   
   .navigation {
@@ -614,11 +638,11 @@ body.fools-page {
   
   .ai-bro-item {
     flex-direction: column;
-    font-size: 16px;
   }
   
   .provider, .description {
     text-align: center;
+    width: 100%;
   }
   
   /* Smaller spacing in gruesome twosome */

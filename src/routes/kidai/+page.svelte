@@ -1,4 +1,3 @@
-```svelte
 <script>
   import { onMount } from 'svelte';
 
@@ -93,7 +92,7 @@ p {
   }
 
   .ai-bro-item {
-    flex: 1 1 100%;
+    display: flex;
   }
 }
 
@@ -156,4 +155,3 @@ p {
     </div>
   </section>
 </div>
-```
