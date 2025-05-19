@@ -11,12 +11,12 @@ body {
   min-height: 100vh; 
   margin: 0;
   text-align: center;
-  overflow-x: hidden; /* Prevent horizontal scroll on mobile */
+  overflow-x: hidden;
 }
 
 /* Target content links, exclude header/footer links by href pattern */
 body a:not([href*="kid-ai"]):not([href*="the-art"]):not([href*="words-matter"]) {
-    color: #444444; /* Dark grey */
+    color: #444444;
     text-decoration: underline dotted;
     text-underline-offset: 3px;
     transition: color 0.2s ease;
@@ -24,12 +24,12 @@ body a:not([href*="kid-ai"]):not([href*="the-art"]):not([href*="words-matter"]) 
 
 /* Hover state: change color instead of font-weight */
 body a:not([href*="kid-ai"]):not([href*="the-art"]):not([href*="words-matter"]):hover {
-    color: #666666; /* Lighter grey on hover */
+    color: #666666;
 }
 
 /* Visited state: change color instead of font-weight */
 body a:not([href*="kid-ai"]):not([href*="the-art"]):not([href*="words-matter"]):visited {
-    color: #333333; /* Darker grey when visited */
+    color: #333333;
 }
 
 /* Protect header links with higher specificity */
@@ -157,21 +157,28 @@ body.fools-page {
 
 .desktop-logo {
   display: block;
-  height: var(--logo-height, 35px);
+  height: var(--logo-height, 40px);
   width: auto;
   margin-left: 1.5vw;
 }
 
 .mobile-logo {
   display: none;
-  height: var(--logo-height, 35px);
+  height: var(--logo-height, 40px);
   width: auto;
   margin-left: 1.5vw;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
 .navigation {
   display: flex;
   gap: 1rem;
+  margin-left: auto;
+  padding-right: 3.2rem;
 }
 
 .navigation a {
@@ -200,6 +207,7 @@ body.fools-page {
 /* Donate Button */
 .donate-container {
   position: relative;
+  margin-right: 1.5vw;
 }
 
 .donate-button {
@@ -556,7 +564,7 @@ body.fools-page {
   
   .mobile-logo {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 0 1rem; /* Center with left margin */
   }
 }
 
@@ -577,7 +585,7 @@ body.fools-page {
   .mobile-logo {
     display: block;
     height: 30px !important;
-    margin: 0 auto;
+    margin: 0 auto 0 1rem; /* Center with left margin */
   }
   
   .navigation {
