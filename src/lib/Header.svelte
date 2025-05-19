@@ -1,5 +1,5 @@
 <script>
-  export let logoHeight = "35px";  // Adjustable via prop
+  export const logoHeight = "35px";  // Adjustable via prop
   export let linkFontSize = "1rem"; // Adjustable prop for link size
   let showDropdown = false; // For toggling dropdown
   let mobileMenuOpen = false; // For mobile menu toggle
