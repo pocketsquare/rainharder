@@ -18,7 +18,7 @@ body {
 body a:not([href*="kid-ai"]):not([href*="the-art"]):not([href*="words-matter"]) {
     color: #444444; /* Dark grey */
     text-decoration: underline dotted;
-    text-underline-offset: 3px; /* Lower the underline by a pixel (default is ~2px) */
+    text-underline-offset: 3px;
     transition: color 0.2s ease;
 }
 
@@ -73,7 +73,6 @@ p {
 }
 
 /* A Major Page Styles */
-
 .container.amajor-page {
   text-align: justify;
   background-color: rgba(255, 255, 255, 0.9);
@@ -82,7 +81,6 @@ p {
 
 body.amajor-page {
   background-image: url('/patterns/escape-flight.png');
-  /* background-image: url('/patterns/dark-wood.jpg'); */
 }
 
 /* Words Page Styles */
@@ -154,13 +152,21 @@ body.fools-page {
   padding: 1rem 2rem;
   border-bottom: 1px solid #dddddd;
   background-color: rgba(255, 255, 255, 0.9);
-  position: relative; /* Ensure dropdown positions correctly */
+  position: relative;
 }
 
-.logo-container img {
-  height: var(--logo-height, 50px);
-  width: auto;
+.desktop-logo {
   display: block;
+  height: var(--logo-height, 35px);
+  width: auto;
+  margin-left: 1.5vw;
+}
+
+.mobile-logo {
+  display: none;
+  height: var(--logo-height, 35px);
+  width: auto;
+  margin-left: 1.5vw;
 }
 
 .navigation {
@@ -171,13 +177,13 @@ body.fools-page {
 .navigation a {
   text-decoration: none;
   color: #333;
-  font-weight: 400; /* <-- ADD ONLY THIS */
-  transition: color 0.2s ease, font-weight 0.2s ease; /* <-- MODIFY THIS LINE ONLY (added font-weight transition) */
+  font-weight: 400;
+  transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .navigation a:hover {
-  color: #000000; 
-  font-weight: 600; /* <-- ADD ONLY THIS */
+  color: #000000;
+  font-weight: 600;
 }
 
 /* Mobile menu button - hidden by default */
@@ -197,18 +203,17 @@ body.fools-page {
 }
 
 .donate-button {
-  /* font-family: 'Inter', sans-serif; */
-  font-weight: 600; /* Choose your weight: 500, 700 etc. as loaded above */
+  font-weight: 600;
   font-size: 1rem;
-  background-color: #2E1C35; 
+  background-color: #2E1C35;
   color: #ffffff;
   padding: 0.5rem 1rem;
   border-radius: 0rem;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-optical-sizing: auto; /* Recommended by Google */
-  font-style: normal; /* Also recommended by Google */
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .donate-button:hover {
@@ -225,7 +230,6 @@ body.fools-page {
   border-radius: 0rem;
   box-shadow: 0 4px 8px rgba(46, 45, 45, 0.2);
   padding: 0.5rem 0;
-  /* margin-top: 1rem; */
   display: flex;
   flex-direction: column;
   min-width: 180px;
@@ -236,7 +240,7 @@ body.fools-page {
   color: #333;
   font-weight: 500;
   padding: 1rem 1rem;
-  font-size: 1rem; 
+  font-size: 1rem;
   text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -244,11 +248,7 @@ body.fools-page {
 .donate-dropdown a:hover {
   background-color: #f1f1f1;
   color: #000000;
-  font-weight: 600; 
-}
-
-.navigation a:hover {
-  color: #000000;
+  font-weight: 600;
 }
 
 /* PDF Grid & Cards for Words Page */
@@ -298,15 +298,16 @@ body.fools-page {
   color: #555555;
 }
 
-/* this is where it gets good */
-
+/* Gruesome Twosome */
 .gruesome-twosome {
   display: flex;
-  justify-content: center; /* centers horizontally */
-  align-items: center; /* aligns vertically */
-  gap: 2rem; /* tasteful spacing between personas */
-  flex-wrap: wrap; /* responsive on smaller screens */
-  padding: 1rem; /* padding within the container */
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .persona {
@@ -316,33 +317,33 @@ body.fools-page {
 }
 
 .persona img {
-  max-width: 200px; /* adjust as necessary */
+  max-width: 200px;
   height: auto;
-  border-radius: 8px; /* subtle rounded corners */
+  border-radius: 8px;
 }
 
 .persona p {
-  margin-top: 0.75rem; /* space between image and name */
-  font-weight: 500; /* semi-bold for visibility */
+  margin-top: 0.75rem;
+  font-weight: 500;
   font-size: 1rem;
   color: #333;
   text-align: center;
 }
 
-/* this will get pulled in from something like Spotify later. but for now */
-
+/* Episode Sample */
 .episode-sample {
-  background-color: rgba(255, 255, 255, 0.85); /* translucent white */
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 1rem;
   margin: 1.5rem auto;
   border-radius: 8px;
-  max-width: 600px; /* adjust for readability */
+  max-width: 600px;
   text-align: center;
-  color: #333; /* dark text color */
+  color: #333;
+  position: relative;
+  z-index: 3;
 }
 
-/* everything in its right place */
-
+/* AI Bros List */
 .ai-bros-list {
   display: flex;
   flex-direction: column;
@@ -374,8 +375,7 @@ body.fools-page {
   text-decoration: underline;
 }
 
-/* moar, she cried, but i don't lknow what it means */
-
+/* Kid AI Container */
 .kidai-container {
   width: 90%;
   max-width: 800px;
@@ -387,30 +387,16 @@ body.fools-page {
   text-align: center;
 }
 
-/* Le Chat magick*/
-
+/* Le Chat Magick */
 .negligee {
   position: relative;
-  z-index: 2; /* Adjust z-index as needed */
-  height: 100px; /* Adjust height as needed */
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
-  margin: 20px 0; /* Adjust margin as needed */
-  /* Add other styles as needed */
+  z-index: 2;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 20px 0;
 }
 
-.gruesome-twosome {
-  position: relative;
-  z-index: 1; /* Domino layer */
-}
-
-.episode-sample {
-  position: relative;
-  z-index: 3; /* Episode layer */
-}
-
-/* Gill Sans JP */
-
-/* Gill Sans Light */
+/* Gill Sans Fonts */
 @font-face {
   font-family: 'Gill Sans';
   src: url('/fonts/GillSans/GillSansLight/font.woff2') format('woff2'),
@@ -420,7 +406,6 @@ body.fools-page {
   font-display: swap;
 }
 
-/* Gill Sans Light Italic */
 @font-face {
   font-family: 'Gill Sans';
   src: url('/fonts/GillSans/GillSansLightItalic/font.woff2') format('woff2'),
@@ -430,7 +415,6 @@ body.fools-page {
   font-display: swap;
 }
 
-/* Gill Sans Medium */
 @font-face {
   font-family: 'Gill Sans';
   src: url('/fonts/GillSans/GillSansMedium/font.woff2') format('woff2'),
@@ -440,7 +424,6 @@ body.fools-page {
   font-display: swap;
 }
 
-/* Gill Sans Medium Italic */
 @font-face {
   font-family: 'Gill Sans';
   src: url('/fonts/GillSans/GillSansMediumItalic/font.woff2') format('woff2'),
@@ -450,7 +433,6 @@ body.fools-page {
   font-display: swap;
 }
 
-/* Gill Sans Bold */
 @font-face {
   font-family: 'Gill Sans';
   src: url('/fonts/GillSans/GillSansBold/font.woff2') format('woff2'),
@@ -460,7 +442,6 @@ body.fools-page {
   font-display: swap;
 }
 
-/* Gill Sans Bold Italic */
 @font-face {
   font-family: 'Gill Sans';
   src: url('/fonts/GillSans/GillSansBoldItalic/font.woff2') format('woff2'),
@@ -486,14 +467,8 @@ body.fools-page {
   appearance: none;
 }
 
-/* Hide mobile logo by default */
-.mobile-logo {
-  display: none;
-}
-
 /* Mobile menu styles - Only apply below 768px */
 @media (max-width: 768px) {
-  /* Basic responsive adjustments */
   .container {
     width: 95%;
     padding: 15px;
@@ -501,7 +476,7 @@ body.fools-page {
   }
   
   h1 {
-    font-size: 2.5rem; /* Slightly smaller for readability */
+    font-size: 2.5rem;
     word-wrap: break-word;
   }
   
@@ -509,14 +484,12 @@ body.fools-page {
     font-size: 1.1rem;
   }
   
-  /* Make video container responsive */
   .video-container iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
   }
   
-  /* Responsive header navigation */
   .site-header {
     padding: 0.8rem 1rem;
   }
@@ -563,13 +536,11 @@ body.fools-page {
     display: block;
   }
   
-  /* Responsive PDF grid */
   .pdf-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
   }
   
-  /* Responsive donate button and dropdown */
   .donate-button {
     font-size: 0.9rem;
     padding: 0.4rem 0.8rem;
@@ -577,6 +548,15 @@ body.fools-page {
   
   .donate-dropdown {
     min-width: 150px;
+  }
+
+  .desktop-logo {
+    display: none;
+  }
+  
+  .mobile-logo {
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -590,13 +570,14 @@ body.fools-page {
     padding: 0.6rem 0.8rem;
   }
   
-  .logo-container .desktop-logo {
-    display: none; /* Hide desktop logo on mobile */
+  .desktop-logo {
+    display: none;
   }
   
-  .logo-container .mobile-logo {
-    display: block; /* Show mobile logo */
-    height: 30px !important; /* Override inline style */
+  .mobile-logo {
+    display: block;
+    height: 30px !important;
+    margin: 0 auto;
   }
   
   .navigation {
@@ -604,7 +585,7 @@ body.fools-page {
   }
   
   .pdf-grid {
-    grid-template-columns: 1fr; /* Single column on very small devices */
+    grid-template-columns: 1fr;
   }
   
   .donate-dropdown a {
@@ -621,7 +602,6 @@ body.fools-page {
     text-align: center;
   }
   
-  /* Smaller spacing in gruesome twosome */
   .gruesome-twosome {
     gap: 1rem;
   }
