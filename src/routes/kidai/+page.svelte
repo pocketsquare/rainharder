@@ -1,4 +1,3 @@
-```svelte
 <script>
   import { onMount } from 'svelte';
 
@@ -92,8 +91,9 @@ p {
     font-size: 1.25rem; /* Added for responsiveness */
   }
 
+  /* Items should have flex layout for provider/description alignment */
   .ai-bro-item {
-    flex: 1 1 100%;
+    display: flex;
   }
 }
 
@@ -143,7 +143,7 @@ p {
       </div>
       <div class="ai-bro-item">
         <div class="provider">Meta</div>
-        <div class="description"> </div>
+        <div class="description"></div>
       </div>
       <div class="ai-bro-item">
         <div class="provider">Gemini</div>
@@ -156,4 +156,3 @@ p {
     </div>
   </section>
 </div>
-```
