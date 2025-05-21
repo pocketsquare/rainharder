@@ -17,7 +17,7 @@
     let question: Question | null = null;
   
     onMount(async () => {
-      const res = await fetch('http://127.0.0.1:8000/questions/1');
+        const res = await fetch(`${import.meta.env.VITE_PUBLIC_API_URL}/questions/1`);
       if (!res.ok) {
         console.error('Failed to fetch:', res.statusText);
         return;
