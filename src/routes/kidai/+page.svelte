@@ -119,7 +119,7 @@ p {
 
 <div class="kidai-container">
   <h1>{title}</h1>
-  <p>{tagline}</p>
+  <p><a href="/wolfram-alpaca.png">{tagline}</a></p>
 
   <section class="ai-bros">
     <div class="ai-bros-list">
