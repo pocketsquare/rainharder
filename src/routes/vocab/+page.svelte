@@ -17,6 +17,7 @@
     let question: Question | null = null;
   
     onMount(async () => {
+      // Revert to the working hardcoded URL for now
       const res = await fetch('http://127.0.0.1:8000/questions/1');
       if (!res.ok) {
         console.error('Failed to fetch:', res.statusText);

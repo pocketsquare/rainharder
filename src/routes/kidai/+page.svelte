@@ -131,7 +131,9 @@ p {
       </div>
       <div class="ai-bro-item">
         <div class="provider">Claude</div>
-        <div class="description">Claude Baudelaire</div>
+        <div class="description">
+          <a href="/dario.png" target="_blank" rel="noopener noreferrer">Claude Baudelaire</a>
+        </div>
       </div>
       <div class="ai-bro-item">
         <div class="provider">Grok</div>
