@@ -155,7 +155,9 @@ p {
       </div>
       <div class="ai-bro-item">
         <div class="provider">Perplexity</div>
-        <div class="description">Pets.com</div>
+        <div class="description">
+          <a href="https://theoatmeal.com/comics/cats_actually_kill" target="_blank" rel="noopener noreferrer">Pets.com</a>
+        </div>
       </div>
     </div>
   </section>
