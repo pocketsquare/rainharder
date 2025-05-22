@@ -137,7 +137,9 @@ p {
       </div>
       <div class="ai-bro-item">
         <div class="provider">Grok</div>
-        <div class="description">SuperGrok Pot</div>
+        <div class="description">
+          <a href="/grokshot.png" target="_blank" rel="noopener noreferrer">SuperGrok Pot</a>
+        </div>
       </div>
       <div class="ai-bro-item">
         <div class="provider"><a href="https://mistral.ai" target="_blank" rel="noopener noreferrer">Mistral</a></div>
