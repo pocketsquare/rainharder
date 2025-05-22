@@ -2,7 +2,7 @@
 <script>
   import { onMount } from 'svelte';
 
-  const title = "Subtractive Capability";
+  const title = "SUBTRACTIVE CAPABILITY";
   const tagline = "Adventures in the Skein Trade";
 
   onMount(() => {
