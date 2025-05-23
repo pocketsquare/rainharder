@@ -2,6 +2,7 @@
   import Header from '$lib/Header.svelte';
   import { page } from '$app/stores';
   import { onMount, afterUpdate } from 'svelte';
+  import Plausible from 'plausible-tracker';
   
   // Function to update the body class based on the current path
   function updateBodyClass() {
@@ -19,13 +20,20 @@
   }
   
   // Update class when component mounts
-  onMount(updateBodyClass);
+  onMount(() => {
+    updateBodyClass();
+    
+    // Initialize Plausible
+    const plausible = Plausible({
+      domain: 'rainharder.com' // replace with your actual domain
+    });
+    
+    plausible.enableAutoPageviews();
+  });
   
   // Update class when route changes
   $: if ($page) updateBodyClass();
 </script>
-
-<script defer data-domain="rainharder.com" src="https://plausible.io/js/script.js"></script>
 
 <Header />
 
