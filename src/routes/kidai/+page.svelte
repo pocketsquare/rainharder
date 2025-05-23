@@ -41,80 +41,104 @@
   }
 
   h1 {
-  font-family: 'BD Plakatbau', sans-serif;
-  font-weight: normal;
-  font-size: 5rem; /* Increased from 3rem */
-  margin-bottom: 1rem;
-  margin-top: -1rem;
-}
-
-p {
-  font-family: 'BD Plakatbau', sans-serif;
-  font-size: 2.2rem; /* Increased from 1.5rem */
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-
-.provider {
-  flex: 1;
-  text-align: left;
-  font-weight: normal;
-  font-size: 2.2rem; /* Added explicit size */
-  margin: 0;
-  line-height: 2;
-}
-
-.description {
-  flex: 1;
-  text-align: left;
-  font-weight: normal;
-  font-size: 2.2rem; /* Added explicit size */
-  margin: 0;
-  line-height: 2;
-}
-
-@media (max-width: 768px) {
-  .kidai-container {
-    padding: 1.5rem;
-    width: 100%;
-  }
-
-  h1 {
-    font-size: 2.5rem; /* Increased from 2rem */
+    font-family: 'BD Plakatbau', sans-serif;
+    font-weight: normal;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
   }
 
   p {
-    font-size: 1.5rem; /* Increased from 1.1rem */
+    font-family: 'BD Plakatbau', sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
   }
 
-  .provider,
-  .description {
-    font-size: 1.25rem; /* Added for responsiveness */
+  .ai-bros-list {
+    display: flex;
+    flex-direction: column;
   }
 
   .ai-bro-item {
-    flex: 1 1 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .kidai-container {
-    padding: 1rem;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 18px;
   }
 
-  h1 {
-    font-size: 2rem; /* Increased from 1.75rem */
+  .provider {
+    flex: 1;
+    text-align: left;
+    font-weight: normal;
+    font-size: 2.2rem;
+    margin: 0;
+    line-height: 2;
   }
 
-  p {
-    font-size: 1.25rem; /* Increased from 1rem */
-  }
-
-  .provider,
   .description {
-    font-size: 1rem; /* Added for responsiveness */
+    flex: 1;
+    text-align: left;
+    font-weight: normal;
+    font-size: 2.2rem;
+    margin: 0;
+    line-height: 2;
   }
-}
+
+  @media (max-width: 768px) {
+    .kidai-container {
+      padding: 1.5rem;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    .ai-bro-item {
+      display: flex;
+      flex-direction: row !important;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .provider,
+    .description {
+      flex: 1;
+      text-align: left !important;
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .kidai-container {
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
+
+    .ai-bro-item {
+      display: flex;
+      flex-direction: row !important;
+      margin-bottom: 10px;
+    }
+
+    .provider,
+    .description {
+      flex: 1;
+      text-align: left !important;
+      font-size: 1rem;
+    }
+  }
 </style>
 
 <div class="kidai-container">
@@ -130,19 +154,19 @@ p {
         </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Claude (Anthropic)</div>
+        <div class="provider">Claude</div>
         <div class="description">
           <a href="/dario.png" target="_blank" rel="noopener noreferrer">Claude Baudelaire</a>
         </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Copilot (Microsoft)</div>
+        <div class="provider">Copilot</div>
         <div class="description">
           <a href="/goose.png" target="_blank" rel="noopener noreferrer">Goose</a>
         </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Grok (xAI)</div>
+        <div class="provider">Grok</div>
         <div class="description">
           <a href="/grokshot.png" target="_blank" rel="noopener noreferrer">SuperGrok Pot</a>
         </div>
@@ -154,11 +178,11 @@ p {
         </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Meta (Facebook)</div>
+        <div class="provider">Meta</div>
         <div class="description"> </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Gemini (Google)</div>
+        <div class="provider">Gemini</div>
         <div class="description">Cardinal Sundar</div>
       </div>
       <div class="ai-bro-item">
