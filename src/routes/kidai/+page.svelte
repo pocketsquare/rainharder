@@ -130,27 +130,35 @@ p {
         </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Claude</div>
+        <div class="provider">Claude (Anthropic)</div>
         <div class="description">
           <a href="/dario.png" target="_blank" rel="noopener noreferrer">Claude Baudelaire</a>
         </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Grok</div>
+        <div class="provider">Copilot (Microsoft)</div>
+        <div class="description">
+          <a href="/goose.png" target="_blank" rel="noopener noreferrer">Goose</a>
+        </div>
+      </div>
+      <div class="ai-bro-item">
+        <div class="provider">Grok (xAI)</div>
         <div class="description">
           <a href="/grokshot.png" target="_blank" rel="noopener noreferrer">SuperGrok Pot</a>
         </div>
       </div>
       <div class="ai-bro-item">
         <div class="provider"><a href="https://mistral.ai" target="_blank" rel="noopener noreferrer">Mistral</a></div>
-        <div class="description">LePen is</div>
+        <div class="description">
+          <a href="/mightier.png" target="_blank" rel="noopener noreferrer">LePen Is</a>
+        </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Meta</div>
+        <div class="provider">Meta (Facebook)</div>
         <div class="description"> </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Gemini</div>
+        <div class="provider">Gemini (Google)</div>
         <div class="description">Cardinal Sundar</div>
       </div>
       <div class="ai-bro-item">
