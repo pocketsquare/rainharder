@@ -25,6 +25,8 @@
   $: if ($page) updateBodyClass();
 </script>
 
+<script defer data-domain="rainharder.com" src="https://plausible.io/js/script.js"></script>
+
 <Header />
 
 <slot></slot>
