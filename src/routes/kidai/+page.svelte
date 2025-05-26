@@ -85,10 +85,10 @@
   }
 
   @media (max-width: 768px) {
-    .kidai-container {
-      padding: 1.5rem;
-      width: 100%;
-    }
+  .provider,
+  .description {
+    font-size: 1.4rem; /* Change from 1.25rem */
+  }
 
     h1 {
       font-size: 2.5rem;
@@ -114,9 +114,10 @@
   }
 
   @media (max-width: 480px) {
-    .kidai-container {
-      padding: 1rem;
-    }
+  .provider,
+  .description {
+    font-size: 1.1rem; /* Change from 1rem */
+  }
 
     h1 {
       font-size: 2rem;
