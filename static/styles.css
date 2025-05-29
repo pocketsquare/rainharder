@@ -99,6 +99,11 @@ body.contact-page {
   background-image: url('/patterns/special-delivery.jpg');
 }
 
+/* Confirmation Page Styles */
+body.confirmation-page {
+  background-image: url('/patterns/special-delivery.jpg');
+}
+
 /* Fools / Gruesome Twosome Page Styles */
 body.fools-page {
     background-color: #DFDBE5;
@@ -621,4 +626,61 @@ body.fools-page {
   .persona img {
     max-width: 150px;
   }
+}
+
+/* Reusable Form Styling - Scoped to .container */
+.container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  font-family: 'Gill Sans', Inter, Georgia, serif;
+  box-sizing: border-box;
+}
+
+.container .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.container .form-group label {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.container .form-group input,
+.container .form-group textarea {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container .form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.container button[type='submit'] {
+  align-self: center;
+  background-color: #2E1C35;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border: none;
+}
+
+.container button[type='submit']:hover {
+  background-color: #573065;
 }
