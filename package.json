@@ -28,6 +28,7 @@
 		"vite": "^6.2.6"
 	},
 	"dependencies": {
-		"plausible-tracker": "^0.3.9"
+		"plausible-tracker": "^0.3.9",
+		"resend": "^4.5.1"
 	}
 }
