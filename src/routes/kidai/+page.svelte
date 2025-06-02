@@ -175,7 +175,7 @@
       <div class="ai-bro-item">
         <div class="provider"><a href="https://mistral.ai" target="_blank" rel="noopener noreferrer">Mistral</a></div>
         <div class="description">
-          <a href="/mightier.png" target="_blank" rel="noopener noreferrer">LePen Is</a>
+          <a href="/pdfs/mightier.pdf" target="_blank" rel="noopener noreferrer">LePen Is</a>
         </div>
       </div>
       <div class="ai-bro-item">
