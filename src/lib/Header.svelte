@@ -105,10 +105,10 @@
         {/if}
       </div>
       
-      <a href="https://www.rainharder.com/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf" on:click={closeMobileMenu}>the art</a>
+      <a href="https://www.rainharder.com/pdfs/The%20Art%20of%20Dressing%20Fiscally%20MS.pdf" on:click={closeMobileMenu}>one art</a>
       <a href="/words" on:click={closeMobileMenu}>words matter</a>
       <a href="/fools" on:click={closeMobileMenu}>beta condoms</a>
-      <a href="https://rocketreach.co/jimmy-haslam-email_55376650" on:click={closeMobileMenu}>eye contact</a>
+     <a href="/contact" on:click={closeMobileMenu}>eye contact</a>
   </nav>
 
   <!-- Donate container with dropdown -->
