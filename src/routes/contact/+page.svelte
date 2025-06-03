@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { PUBLIC_API_URL } from '$env/static/public';
 
   let name = "";
   let email = "";
@@ -11,20 +12,17 @@
   });
 
   async function submitForm() {
-    const apiUrl = import.meta.env.PUBLIC_API_URL; // Load from .env
-    const response = await fetch(`${apiUrl}/email/send`, {
+    const response = await fetch(`${PUBLIC_API_URL}/email/send`, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, subject, message }),
     });
 
     if (response.ok) {
       window.location.href = '/confirmation';
     } else {
-      const errorData = await response.json();
-      alert(`Error: ${errorData.detail || 'There was a problem sending your message.'}`);
+      const errorText = await response.text();
+      alert(`Error: ${errorText}`);
     }
   }
 </script>
