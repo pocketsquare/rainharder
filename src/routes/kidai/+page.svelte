@@ -174,7 +174,7 @@
         </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider"><a href="https://mistral.ai" target="_blank" rel="noopener noreferrer">Mistral</a></div>
+        <div class="provider">Mistral</div>
         <div class="description">
           <a href="/pdfs/mightier.pdf" target="_blank" rel="noopener noreferrer">LePen Is</a>
         </div>
@@ -185,7 +185,9 @@
       </div>
       <div class="ai-bro-item">
         <div class="provider">Gemini</div>
-        <div class="description">Cardinal Sundar</div>
+        <div class="description">
+          <a href="https://en.wikipedia.org/wiki/Spotlight_(film)" target="_blank" rel="noopener noreferrer">Cardinal Sundar</a>
+        </div>
       </div>
       <div class="ai-bro-item">
         <div class="provider">Perplexity</div>
