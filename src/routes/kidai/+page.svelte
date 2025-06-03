@@ -145,7 +145,7 @@
 
 <div class="kidai-container">
   <h1>{title}</h1>
-  <p><a href="/wolfram-alpaca.png">{tagline}</a></p>
+  <p><a href="/wolfram-alpaca.png" target="_blank" rel="noopener noreferrer">{tagline}</a></p>
 
   <section class="ai-bros">
     <div class="ai-bros-list">
