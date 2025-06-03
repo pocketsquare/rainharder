@@ -34,11 +34,12 @@
     max-width: 900px;
     padding: 2rem;
     margin: 0 auto;
-    /* margin-top: -1.3rem; */
+    margin-top: -1.3rem;
     box-sizing: border-box;
     border-radius: 0;
     overflow: visible;
   }
+
 
   h1 {
     font-family: 'BD Plakatbau', sans-serif;
