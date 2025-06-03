@@ -34,7 +34,7 @@
     max-width: 900px;
     padding: 2rem;
     margin: 0 auto;
-    margin-top: -1.3rem;
+    /* margin-top: -1.3rem; */
     box-sizing: border-box;
     border-radius: 0;
     overflow: visible;
@@ -169,7 +169,7 @@
       <div class="ai-bro-item">
         <div class="provider">Grok</div>
         <div class="description">
-          <a href="/grokshot.png" target="_blank" rel="noopener noreferrer">SuperGrok Pot</a>
+          <a href="/grok.png" target="_blank" rel="noopener noreferrer">SuperGrok Pot</a>
         </div>
       </div>
       <div class="ai-bro-item">
