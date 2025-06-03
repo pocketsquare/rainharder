@@ -156,15 +156,15 @@
         </div>
       </div>
       <div class="ai-bro-item">
-        <div class="provider">Claude</div>
-        <div class="description">
-          <a href="/dario.png" target="_blank" rel="noopener noreferrer">Claude Baudelaire</a>
-        </div>
-      </div>
-      <div class="ai-bro-item">
         <div class="provider">Copilot</div>
         <div class="description">
           <a href="/goose.png" target="_blank" rel="noopener noreferrer">Goose</a>
+        </div>
+      </div>      
+      <div class="ai-bro-item">
+        <div class="provider">Claude</div>
+        <div class="description">
+          <a href="/dario.png" target="_blank" rel="noopener noreferrer">Claude Baudelaire</a>
         </div>
       </div>
       <div class="ai-bro-item">
