@@ -1,5 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/api/email/send", "destination": "/email/send" }
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
   ]
 }
