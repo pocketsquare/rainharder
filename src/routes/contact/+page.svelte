@@ -18,11 +18,17 @@
       body: JSON.stringify({ name, email, subject, message }),
     });
 
-    if (response.ok) {
-      window.location.href = '/confirmation';
+    const contentType = response.headers.get("content-type");
+    if (contentType && contentType.includes("application/json")) {
+      const result = await response.json();
+      if (response.ok) {
+        window.location.href = '/confirmation';
+      } else {
+        alert(`Error: ${result.detail || "Unknown error."}`);
+      }
     } else {
-      const errorText = await response.text();
-      alert(`Error: ${errorText}`);
+      const text = await response.text();
+      alert(`Unexpected response: ${text}`);
     }
   }
 </script>
