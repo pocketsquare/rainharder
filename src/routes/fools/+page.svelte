@@ -39,7 +39,7 @@
   </section>
 
   <!-- New negligee section -->
-  <section class="negligee"></section>
+  <!-- <section class="negligee"></section> -->
 
   <section class="episode-sample">
     <h2>Episode 1: Nob Hill</h2>
