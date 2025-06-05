@@ -50,4 +50,15 @@
     <h2>Episode 2: Fool's Gold</h2>
     <p>Denver Bones, Stone Roses.</p>
   </section>
+
+  <section class="episode-sample">
+    <h2>Episode 3: Kid AI</h2>
+    <p>Mountainhead, Fountainhead.</p>
+  </section>
+
+  <section class="episode-sample">
+    <h2>Episode 4: Le Humidor</h2>
+    <p>The Gang fixes the Rockies</p>
+  </section>
+
 </div>
