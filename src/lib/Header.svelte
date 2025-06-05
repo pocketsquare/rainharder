@@ -88,7 +88,7 @@
     {#if mobileMenuOpen}✕{:else}≡{/if}
   </button>
 
-  <nav class="navigation" class:active={mobileMenuOpen} style="display: flex; gap: 2rem; margin-left: auto; padding-right: 3.2rem; font-size: {linkFontSize}">
+  <nav class="navigation" class:active={mobileMenuOpen} style="display: flex; gap: 2rem; margin-left: auto; margin-bottom: -0.4rem; padding-right: 3.2rem; font-size: {linkFontSize}">
       <!-- Kid AI with dropdown -->
       <!-- svelte-ignore a11y_no_static_element_interactions -->
       <div class="kidai-dropdown-container" 
