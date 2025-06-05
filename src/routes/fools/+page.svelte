@@ -61,4 +61,14 @@
     <p>The Gang fixes the Rockies</p>
   </section>
 
+  <section class="episode-sample">
+    <h2>Episode X: Titans at Broncos, X Bar</h2>
+    <p>Sunday, September 7th, 2025</p>
+  </section>
+
+  <section class="episode-sample">
+    <h2>Episode Y: Browns at Ravens, Y Bar</h2>
+    <p>Sunday, September 14th, 2025</p>
+  </section>
+
 </div>
