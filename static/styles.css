@@ -360,7 +360,7 @@ body.admin-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.7rem;
   flex-wrap: wrap;
   padding: 1rem;
   position: relative;
