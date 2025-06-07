@@ -54,6 +54,7 @@
     <div class="mb-6">
       <h2>Tools</h2>
       <ul class="link-list">
+        <li><a href="https://svelte.dev/">Svelte</a></li>
         <li><a href="/github">GitHub</a></li>
         <li><a href="/resend">Resend</a></li>
         <li><a href="/plausible">Plausible</a></li>
