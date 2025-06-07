@@ -57,7 +57,12 @@
   </section>
 
   <section class="episode-sample">
-    <h2>Episode 4: Le Humidor</h2>
+    <h2>Episode 4: Omaha!</h2>
+    <p>The Gang discusses QBs and Meat</p>
+  </section>
+
+  <section class="episode-sample">
+    <h2>Episode 5: The Humidor</h2>
     <p>The Gang fixes the Rockies</p>
   </section>
 
