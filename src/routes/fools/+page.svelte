@@ -56,12 +56,17 @@
 
   <section class="episode-sample">
     <h2>Episode 4: Omaha!</h2>
-    <p>The Gang discusses QBs and Meat</p>
+    <p>The Gang discusses QBs, Meat, and Buffett</p>
   </section>
 
   <section class="episode-sample">
     <h2>Episode 5: The Humidor</h2>
     <p>The Gang fixes the Rockies</p>
+  </section>
+
+    <section class="episode-sample">
+    <h2>Episode 6: Red Right 88</h2>
+    <p>A Deep Dive on Cleveland QBs</p>
   </section>
 
   <section class="episode-sample">
