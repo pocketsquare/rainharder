@@ -48,17 +48,17 @@
 
     <section class="episode-sample">
       <h2>Episode 2: Fool's Gold</h2>
-      <p>Denver Bones, Stone Roses.</p>
+      <p>Denver Bones, Stone Roses</p>
     </section>
 
     <section class="episode-sample">
       <h2>Episode 3: Kid AI</h2>
-      <p>Mountainhead, Fountainhead.</p>
+      <p>Mountainhead, Fountainhead</p>
     </section>
 
     <section class="episode-sample">
       <h2>Episode 4: Omaha!</h2>
-      <p>The Gang discusses QBs, Meat, and Buffett</p>
+      <p>Quarterbacks, Meat, and Buffett</p>
     </section>
 
     <section class="episode-sample">
@@ -72,13 +72,13 @@
     </section>
 
     <section class="episode-sample">
-      <h2>Episode X: Titans at Broncos, X Bar</h2>
-      <p>Sunday, September 7th, 2025</p>
+      <h2>Episode X: Titans at Broncos</h2>
+      <p>X Bar (date inherent)</p>
     </section>
 
     <section class="episode-sample">
-      <h2>Episode Y: Browns at Ravens, Y Bar</h2>
-      <p>Sunday, September 14th, 2025</p>
+      <h2>Episode Y: Browns at Ravens</h2>
+      <p>Y Bar (date inherent)</p>
     </section>
   </div>
 </div>
