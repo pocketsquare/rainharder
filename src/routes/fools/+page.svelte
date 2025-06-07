@@ -9,11 +9,11 @@
   const title = "The Beta Condoms";
   const tagline = "We may be dumb, but we're not stupid.";
 
-  // 1.07734807 = the current picture ratio
-
   let profiles = [
     { name: 'Stevie Cleveland', imgSrc: '/rockwell.png', alt: 'Stevie Cleveland' },
-    { name: 'Clarence Diamond', imgSrc: '/goggins.png', alt: 'Clarence Diamond' }
+    { name: 'Clarence Diamond', imgSrc: '/goggins.png', alt: 'Clarence Diamond' },
+    { name: 'Gino Prime', imgSrc: '/posey.png', alt: 'Gino Prime' },
+    { name: 'Kendall & Shiv', imgSrc: '/kitties.png', alt: 'Kendall & Shiv' }
   ];
 </script>
 
@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="/styles.css" />
 </svelte:head>
 
-<div class="fools-container">
+<div class="fools-header">
   <h1>{title}</h1>
   <p>{tagline}</p>
 
@@ -36,47 +36,49 @@
     {/each}
   </section>
 
-  <!-- New negligee section -->
-  <!-- <section class="negligee"></section> -->
+</div>
 
-  <section class="episode-sample">
-    <h2>Episode 1: Nob Hill</h2>
-    <p>In Colfax We Trust</p>
-  </section>
+<div class="container fools-container">
 
-  <section class="episode-sample">
-    <h2>Episode 2: Fool's Gold</h2>
-    <p>Denver Bones, Stone Roses.</p>
-  </section>
-
-  <section class="episode-sample">
-    <h2>Episode 3: Kid AI</h2>
-    <p>Mountainhead, Fountainhead.</p>
-  </section>
-
-  <section class="episode-sample">
-    <h2>Episode 4: Omaha!</h2>
-    <p>The Gang discusses QBs, Meat, and Buffett</p>
-  </section>
-
-  <section class="episode-sample">
-    <h2>Episode 5: The Humidor</h2>
-    <p>The Gang fixes the Rockies</p>
-  </section>
+  <div class="episodes-grid">
+    <section class="episode-sample">
+      <h2>Episode 1: Nob Hill</h2>
+      <p>In Colfax We Trust</p>
+    </section>
 
     <section class="episode-sample">
-    <h2>Episode 6: Red Right 88</h2>
-    <p>A Deep Dive on Cleveland QBs</p>
-  </section>
+      <h2>Episode 2: Fool's Gold</h2>
+      <p>Denver Bones, Stone Roses.</p>
+    </section>
 
-  <section class="episode-sample">
-    <h2>Episode X: Titans at Broncos, X Bar</h2>
-    <p>Sunday, September 7th, 2025</p>
-  </section>
+    <section class="episode-sample">
+      <h2>Episode 3: Kid AI</h2>
+      <p>Mountainhead, Fountainhead.</p>
+    </section>
 
-  <section class="episode-sample">
-    <h2>Episode Y: Browns at Ravens, Y Bar</h2>
-    <p>Sunday, September 14th, 2025</p>
-  </section>
+    <section class="episode-sample">
+      <h2>Episode 4: Omaha!</h2>
+      <p>The Gang discusses QBs, Meat, and Buffett</p>
+    </section>
 
+    <section class="episode-sample">
+      <h2>Episode 5: The Humidor</h2>
+      <p>The Gang Fixes the Rockies</p>
+    </section>
+
+    <section class="episode-sample">
+      <h2>Episode 6: Red Right 88</h2>
+      <p>A Deep Drive on Cleveland QBs</p>
+    </section>
+
+    <section class="episode-sample">
+      <h2>Episode X: Titans at Broncos, X Bar</h2>
+      <p>Sunday, September 7th, 2025</p>
+    </section>
+
+    <section class="episode-sample">
+      <h2>Episode Y: Browns at Ravens, Y Bar</h2>
+      <p>Sunday, September 14th, 2025</p>
+    </section>
+  </div>
 </div>
