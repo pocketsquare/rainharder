@@ -55,12 +55,13 @@
       <h2>Tools</h2>
       <ul class="link-list">
         <li><a href="https://svelte.dev/">Svelte</a></li>
+        <li><a href="https://fastapi.tiangolo.com/">FastAPI</a></li>
         <li><a href="/github">GitHub</a></li>
         <li><a href="/resend">Resend</a></li>
         <li><a href="/plausible">Plausible</a></li>
         <li><a href="/postman">Postman</a></li>
         <li><a href="/vercel">Vercel</a></li>
-        <li><a href="/vercel">Render</a></li>
+        <li><a href="/render">Render</a></li>
         <li><a href="/proton-mail">Proton Mail</a></li>
         <li><a href="/discord">Discord</a></li>
         <li><a href="/godaddy">GoDaddy</a></li>
