@@ -184,6 +184,12 @@
         <div class="description"> </div>
       </div>
       <div class="ai-bro-item">
+        <div class="provider">Railway</div>
+        <div class="description">
+          <a href="https://www.rainharder.com/failway.png" target="_blank" rel="noopener noreferrer">Failway</a>
+        </div>
+      </div>
+      <div class="ai-bro-item">
         <div class="provider">Gemini</div>
         <div class="description">
           <a href="https://en.wikipedia.org/wiki/Spotlight_(film)" target="_blank" rel="noopener noreferrer">Cardinal Sundar</a>
