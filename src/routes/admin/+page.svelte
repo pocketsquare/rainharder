@@ -37,6 +37,9 @@
       <h2>GOAT</h2>
       <ul class="link-list">
         <li><a href="https://www.rainharder.com">Rain Harder</a></li>
+        <li><a href="https:/games.beer">Games Dot Beer</a></li>
+        <li><a href="https:/www.versepedia.org">Versepedia</a></li>
+        <li><a href="/hammy">Hammy API</a></li>
       </ul>
       <h2>AI</h2>
       <ul class="link-list">
