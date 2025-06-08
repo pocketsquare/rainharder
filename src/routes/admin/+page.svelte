@@ -62,14 +62,16 @@
         <li><a href="/postman">Postman</a></li>
         <li><a href="/vercel">Vercel</a></li>
         <li><a href="/render">Render</a></li>
+        <li><a href="/ghost">Ghost</a></li>
         <li><a href="/proton-mail">Proton Mail</a></li>
         <li><a href="/discord">Discord</a></li>
         <li><a href="/godaddy">GoDaddy</a></li>
         <li><a href="/figma">Figma</a></li>
         <li><a href="/google-drive">Google Drive</a></li>
         <li><a href="/slack">Slack</a></li>
+        <li><a href="/bluesky">Bluesky</a></li>
         <li><a href="/beekeeper">Beekeeper</a></li>
-        <li><a href="/ludic">Lucidchart</a></li>
+        <li><a href="/lucid">Lucidchart</a></li>
       </ul>
     </div>
   </section>
