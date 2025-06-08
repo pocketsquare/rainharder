@@ -58,7 +58,7 @@
 
     <section class="episode-sample">
       <h2>Episode 4: Omaha!</h2>
-      <p>Quarterbacks, Meat, and Buffett</p>
+      <p>Manning, Meat, and Menks</p>
     </section>
 
     <section class="episode-sample">
@@ -68,7 +68,7 @@
 
     <section class="episode-sample">
       <h2>Episode 6: Red Right 88</h2>
-      <p>A Deep Drive on Cleveland QBs</p>
+      <p>A Deep Drive into Cleveland QBs</p>
     </section>
 
     <section class="episode-sample">
