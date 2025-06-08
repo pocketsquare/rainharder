@@ -7,7 +7,7 @@
   });
 
   const title = "The Beta Condoms";
-  const tagline = "We may be dumb, but we're not stupid.";
+  const tagline = "we may be dumb, but we're not stupid.";
 
   let profiles = [
     { name: 'Stevie Cleveland', imgSrc: '/rockwell.png', alt: 'Stevie Cleveland' },
