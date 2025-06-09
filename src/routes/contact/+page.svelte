@@ -7,9 +7,11 @@
   let subject = "";
   let message = "";
 
-  onMount(() => {
-    document.body.classList.add('contact-page');
-  });
+onMount(() => {
+  document.body.classList.add('contact-page');
+  
+  return () => document.body.classList.remove('contact-page');
+});
 
   async function submitForm() {
     const response = await fetch(`${PUBLIC_API_URL}/email/send`, {
