@@ -26,19 +26,16 @@
       <a href="/art">The Art of Dressing Fiscally</a>
     </li>
     <li>
-      <a href="/fools">
-        Fool's Gold
+      <a href="/words">
+        Words Matter
       </a>
     </li>
     <li>
-      <a href="/words">
-        Best Words Learning Method
+      <a href="/fools">
+        The Beta Condoms
       </a>
     </li>
     <li><a href="/amajor">A Major</a></li>
-    <li><a href="/pdfs/hopper.pdf">Sammy Buckets Commits a Technical Foul</a></li>
-    <li><a href="/pdfs/hopper.pdf">Hopper.AI</a></li>
-    <li><a href="/pdfs/hopper.pdf">Station to Station</a></li>
   </ul>
 </div>
 
