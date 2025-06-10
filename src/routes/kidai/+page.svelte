@@ -164,13 +164,13 @@
       <div class="ai-bro-item">
         <div class="provider">Claude</div>
         <div class="description">
-          <a href="/claude.png" target="_blank" rel="noopener noreferrer">Claude Baudelaire</a>
+          <a href="/pemulis.png" target="_blank" rel="noopener noreferrer">Claude Baudelaire</a>
         </div>
       </div>
       <div class="ai-bro-item">
         <div class="provider">Grok</div>
         <div class="description">
-          <a href="/grok.png" target="_blank" rel="noopener noreferrer">StupidGrok Pot</a>
+          <a href="/grok.png" target="_blank" rel="noopener noreferrer">SuperGrok Pot</a>
         </div>
       </div>
       <div class="ai-bro-item">
@@ -183,12 +183,12 @@
         <div class="provider">Meta</div>
         <div class="description"> </div>
       </div>
-      <div class="ai-bro-item">
+      <!-- <div class="ai-bro-item">
         <div class="provider">Railway</div>
         <div class="description">
           <a href="https://www.rainharder.com/failway.png" target="_blank" rel="noopener noreferrer">Failway</a>
         </div>
-      </div>
+      </div> -->
       <div class="ai-bro-item">
         <div class="provider">Gemini</div>
         <div class="description">
