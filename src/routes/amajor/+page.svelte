@@ -54,7 +54,7 @@
     damage also grants you temporal and mild verbal diarrhea. Hence, speeches with gutshot 
     in my gutshit.</p>
 
-    <p>I will still blink symphonies, still.</p>
+    <p>I will still blink symphonies.</p>
     
     <p>-steviecleveland</p>
 </div>

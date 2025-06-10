@@ -43,7 +43,7 @@ header a[href*="words-matter"] {
 /* Home Page Specific Styles */
 body.home-page {
   background-color: #ffffff;
-  background-image: url('/patterns/ripples.jpg');
+  background-image: url('/patterns/ocean.jpg');
 }
 
 /* Container */
@@ -53,7 +53,7 @@ body.home-page {
   align-items: center;
   width: 90%;
   max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 20px;
   border-radius: 0px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -76,7 +76,7 @@ p {
 /* A Major Page Styles */
 .container.amajor-page {
   text-align: justify;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 0;
 }
 
