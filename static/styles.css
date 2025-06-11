@@ -134,11 +134,6 @@ body.fools-page {
   margin-top: 0rem;
 }
 
-/* Admin Page Styles */
-body.admin-page {
-  background-image: url('/patterns/kitty.png');
-}
-
 /* Video Embeds */
 .video-container {
   margin: 2rem 0;
@@ -200,14 +195,6 @@ body.admin-page {
   width: 23rem; /* Equivalent to 400px with default 16px root font size */
   height: auto; /* Maintain aspect ratio */
   margin-left: 1.3vw;
-}
-
-/* admin page */
-
-.container.admin-container {
-  max-width: 1200px;
-  width: 95%;
-}
 
 .mobile-logo {
   display: none;
