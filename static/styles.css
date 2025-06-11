@@ -195,6 +195,7 @@ body.fools-page {
   width: 23rem; /* Equivalent to 400px with default 16px root font size */
   height: auto; /* Maintain aspect ratio */
   margin-left: 1.3vw;
+}
 
 .mobile-logo {
   display: none;
