@@ -170,7 +170,7 @@
       <div class="ai-bro-item">
         <div class="provider">Grok</div>
         <div class="description">
-          <a href="/grok.png" target="_blank" rel="noopener noreferrer">SuperGrok Pot</a>
+          <a href="grok.com" target="_blank" rel="noopener noreferrer">SuperGrok Pot</a>
         </div>
       </div>
       <div class="ai-bro-item">
